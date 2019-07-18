@@ -7,8 +7,13 @@ import com.daedricscrew.daedricscrewmod1.setup.IProxy;
 import com.daedricscrew.daedricscrewmod1.setup.ModSetup;
 import com.daedricscrew.daedricscrewmod1.setup.ServerProxy;
 import net.minecraft.block.Block;
+import net.minecraft.entity.player.PlayerInventory;
+import net.minecraft.inventory.container.ContainerType;
 import net.minecraft.item.BlockItem;
+import net.minecraft.network.PacketBuffer;
 import net.minecraft.tileentity.TileEntityType;
+import net.minecraft.util.math.BlockPos;
+import net.minecraftforge.common.extensions.IForgeContainerType;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
@@ -23,6 +28,7 @@ import net.minecraft.item.Item;
 @Mod("daedricscrewmod1")
 public class DaedricScrewMod1
 {
+    public static final String MODID = "daedricscrewmod1";
     public static IProxy proxy = DistExecutor.runForDist(() -> () -> new ClientProxy(), () -> () -> new ServerProxy());
     public static ModSetup setup = new ModSetup();
     private static final Logger LOGGER = LogManager.getLogger();
@@ -59,6 +65,13 @@ public class DaedricScrewMod1
         @SubscribeEvent
         public static void onTileEntityRegistry(final RegistryEvent.Register<TileEntityType<?>> tileEntityRegistryEvent) {
             tileEntityRegistryEvent.getRegistry().register(TileEntityType.Builder.create(FirstBlockTile::new, ModBlocks.FIRSTBLOCK).build(null).setRegistryName("firstblock"));
+        }
+        @SubscribeEvent
+        public static void onContainerRegistry(final RegistryEvent.Register<ContainerType<?>> containerRegistryEvent) {
+            containerRegistryEvent.getRegistry().register((IForgeContainerType.create((windowId, inv, data) -> {
+                BlockPos pos = data.readBlockPos();
+                return new FirstBlockContainer(windowId, proxy.getClientWorld(), pos, inv, proxy.getClientPlayer());
+            }).setRegistryName("firstblock")));
         }
     }
 }
