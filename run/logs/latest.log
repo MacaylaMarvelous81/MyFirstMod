@@ -1,0 +1,716 @@
+[18Jul2019 10:45:18.137] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190624.152911, --fml.mcVersion, 1.14.3, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 27.0.55, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\jolie\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[18Jul2019 10:45:18.144] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 3.0.1+56+e6669cf starting: java version 1.8.0_221 by Oracle Corporation
+[18Jul2019 10:45:19.131] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[18Jul2019 10:45:20.058] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\jolie\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[18Jul2019 10:45:24.185] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[18Jul2019 10:45:25.446] [Client thread/INFO] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
+[18Jul2019 10:45:39.600] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
+[18Jul2019 10:45:41.412] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 27.0.55, for MC 1.14.3 with MCP 20190624.152911
+[18Jul2019 10:45:41.412] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v27.0.55 Initialized
+[18Jul2019 10:45:44.613] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[18Jul2019 10:45:44.786] [Client thread/INFO] [com.mojang.realmsclient.plugin.RealmsPluginImpl/]: Built for minecraft version 1.14.3
+[18Jul2019 10:45:45.035] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[18Jul2019 10:45:47.449] [Realms Notification Availability checker #1/INFO] [realms.g/]: Could not authorize you against Realms server: Invalid session id
+[18Jul2019 10:45:47.457] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 27.0.55 Target: 27.0.57
+[18Jul2019 10:45:47.457] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [daedricscrewmod1] Starting version check at http://myurl.me/
+[18Jul2019 10:45:47.902] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+java.io.IOException: Server returned HTTP response code: 400 for URL: http://myurl.me/
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_221]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_221]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_221]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1950) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection$10.run(HttpURLConnection.java:1945) ~[?:1.8.0_221]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getChainedException(HttpURLConnection.java:1944) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1514) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498) ~[?:1.8.0_221]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:189) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:206) ~[?:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_221]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:157) [?:?]
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: http://myurl.me/
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1900) ~[?:1.8.0_221]
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1498) ~[?:1.8.0_221]
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_221]
+	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
+	... 3 more
+[18Jul2019 10:45:53.427] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[18Jul2019 10:45:53.428] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[18Jul2019 10:45:53.602] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512 textures-atlas
+[18Jul2019 10:45:54.408] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
+[18Jul2019 10:45:54.409] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
+[18Jul2019 10:45:54.410] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
+[18Jul2019 10:45:59.627] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18Jul2019 10:45:59.627] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18Jul2019 10:45:59.628] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18Jul2019 10:45:59.629] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18Jul2019 10:45:59.629] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18Jul2019 10:45:59.776] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.14.3
+[18Jul2019 10:45:59.776] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[18Jul2019 10:45:59.878] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[18Jul2019 10:45:59.929] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[18Jul2019 10:46:00.268] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-recomp.jar, main
+[18Jul2019 10:46:01.766] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[18Jul2019 10:46:03.232] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 811 advancements
+[18Jul2019 10:46:03.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[18Jul2019 10:46:05.360] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Jul2019 10:46:05.399] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Jul2019 10:46:05.399] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Jul2019 10:46:05.399] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Jul2019 10:46:05.726] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[18Jul2019 10:46:07.993] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[18Jul2019 10:46:07.994] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[18Jul2019 10:46:07.994] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[18Jul2019 10:46:07.994] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[18Jul2019 10:46:08.226] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
+[18Jul2019 10:46:08.727] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
+[18Jul2019 10:46:09.214] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
+[18Jul2019 10:46:09.890] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 98%
+[18Jul2019 10:46:10.128] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 6418 ms
+[18Jul2019 10:46:10.487] [Server thread/INFO] [net.minecraft.world.chunk.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18Jul2019 10:46:10.488] [Server thread/INFO] [net.minecraft.world.chunk.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18Jul2019 10:46:12.648] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[18Jul2019 10:46:13.136] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:e07b8c38] logged in with entity id 172 at (192.98375219228834, 67.0, 27.44787860231317)
+[18Jul2019 10:46:13.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[18Jul2019 10:46:13.522] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[18Jul2019 10:46:13.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[18Jul2019 10:46:13.765] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 749 advancements
+[18Jul2019 10:46:14.695] [pool-3-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService/]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@fc0bac5[id=380df991-f603-344c-a090-369bad2a924a,name=Dev,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[authlib-1.5.25.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) ~[authlib-1.5.25.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) ~[authlib-1.5.25.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) ~[authlib-1.5.25.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3527) ~[guava-25.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2276) ~[guava-25.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2154) ~[guava-25.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2044) ~[guava-25.1-jre.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3951) ~[guava-25.1-jre.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3973) ~[guava-25.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4957) ~[guava-25.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4963) ~[guava-25.1-jre.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) ~[authlib-1.5.25.jar:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:1944) ~[?:?]
+	at net.minecraft.client.resources.SkinManager.lambda$loadProfileTextures$1(SkinManager.java:111) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_221]
+	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266) [?:1.8.0_221]
+	at java.util.concurrent.FutureTask.run(FutureTask.java) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_221]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_221]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
+[18Jul2019 10:46:15.668] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2834ms or 56 ticks behind
+[18Jul2019 10:46:17.990] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:18.124] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:18.129] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:18.296] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:18.301] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:18.303] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:18.306] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:18.395] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:18.399] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:18.461] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:18.479] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:18.522] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:18.565] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:18.614] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:18.680] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:18.729] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:18.828] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:18.831] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:18.878] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:18.928] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:18.980] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:19.062] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:19.079] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:19.129] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:19.197] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:19.241] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:19.281] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:19.330] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:19.381] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:19.429] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:19.481] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:19.531] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:19.581] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:19.635] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:19.680] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:19.730] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:19.783] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:19.829] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:19.882] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:19.914] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:19.980] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:20.029] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:20.080] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:20.130] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:20.164] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:20.264] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:20.279] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:20.335] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:20.371] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:20.431] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:20.481] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:20.592] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:20.595] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:20.630] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:20.672] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:20.730] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:20.780] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:20.831] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:20.864] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:20.946] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:20.980] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:21.030] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:21.082] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:21.130] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:21.181] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:21.266] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:21.631] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:21.713] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:21.720] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:21.723] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:21.728] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:21.732] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:21.736] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:21.741] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:21.746] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:21.762] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:21.780] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:21.830] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:21.886] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:21.914] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:21.964] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:22.032] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:22.081] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:22.132] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:22.183] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:22.230] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:22.279] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:22.324] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:22.383] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:22.413] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:22.496] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:22.545] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:22.580] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:22.617] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:22.704] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:22.732] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:22.782] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:22.854] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:22.881] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:22.930] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:22.964] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:23.014] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:23.078] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:23.146] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:23.182] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:23.231] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:23.280] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:23.331] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:23.364] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:23.429] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:23.478] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:23.530] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:23.584] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:23.631] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:23.682] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:23.718] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:23.882] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:23.885] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:23.888] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:23.930] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:23.983] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:24.028] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:24.066] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:24.130] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:24.163] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:24.213] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:24.280] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:24.330] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:24.380] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:24.429] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:24.479] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:24.530] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:24.580] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:24.631] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:24.681] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:24.730] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:24.786] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:24.831] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:24.864] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:24.930] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:24.982] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:25.030] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:25.081] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:25.114] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:25.182] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:25.230] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:25.280] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:25.330] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:25.364] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:25.429] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:25.478] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:25.529] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:25.581] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:25.616] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:25.681] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:25.729] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:25.779] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:25.830] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:25.864] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:25.929] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:25.979] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:26.029] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:26.081] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:26.130] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:26.180] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:26.228] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:26.278] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:26.329] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:26.380] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:26.428] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:26.479] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:26.529] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:26.580] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:26.630] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:26.680] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:26.728] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:26.778] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:26.829] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:26.879] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:26.930] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:26.979] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:27.028] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:27.079] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:27.129] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:27.179] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:27.228] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:27.279] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:27.329] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:27.402] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:27.428] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:27.479] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:27.528] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:27.579] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:27.630] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:27.677] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:27.728] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:27.778] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:27.828] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:27.878] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:27.928] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:27.978] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:28.027] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:28.065] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:28.128] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:28.179] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:28.228] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:28.278] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:28.330] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:28.378] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:28.427] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:28.478] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:28.528] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:28.579] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:28.628] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:28.678] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:28.729] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:28.778] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:28.827] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:28.878] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:28.928] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:28.979] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:29.028] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:29.077] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:29.129] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:29.179] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:29.229] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:29.278] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:29.329] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:29.378] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:29.428] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:29.479] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:29.527] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:29.578] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:29.628] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:29.678] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:29.729] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:29.781] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:29.828] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:29.877] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:29.927] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:29.978] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:30.031] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:30.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Diamonds!]
+[18Jul2019 10:46:30.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Gave 1 [Diamond] to Dev]
+[18Jul2019 10:46:30.052] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev has made the advancement [Diamonds!]
+[18Jul2019 10:46:30.053] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Gave 1 [Diamond] to Dev
+[18Jul2019 10:46:30.076] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 753 advancements
+[18Jul2019 10:46:30.081] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:30.128] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:30.178] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:30.229] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:30.279] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:30.328] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:30.394] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:30.428] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:30.478] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:30.528] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:30.578] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:30.627] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:30.676] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:30.728] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:30.779] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:30.828] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:30.878] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:30.927] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:30.978] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:31.027] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:31.077] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:31.128] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:31.178] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:31.228] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:31.278] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:31.327] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:31.378] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:31.428] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:31.478] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:31.528] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:31.577] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:31.628] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:31.678] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:31.728] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:31.778] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:31.827] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:31.877] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:31.927] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:31.978] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:32.029] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:32.078] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:32.127] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:32.179] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:32.228] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:32.278] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:32.327] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:32.377] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:32.428] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:32.479] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:32.528] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:32.577] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:32.628] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:32.678] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:32.728] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:32.778] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:32.828] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:32.877] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:32.927] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:32.979] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:33.029] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:33.077] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:33.128] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:33.179] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:33.228] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:33.279] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:33.328] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:33.377] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:33.427] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:33.478] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:33.527] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:33.578] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:33.628] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:33.679] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:33.729] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:33.778] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:33.828] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:33.879] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:33.928] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:33.979] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:34.028] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:34.077] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:34.127] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:34.178] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:34.228] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:34.278] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:34.328] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:34.377] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:34.444] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:34.477] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:34.527] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:34.577] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:34.627] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:34.678] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:34.730] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:34.778] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:34.828] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:34.878] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:34.927] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:34.977] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:35.027] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:35.077] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:35.128] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:35.177] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:35.229] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:35.278] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:35.329] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:35.378] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:35.429] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:35.478] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:35.528] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:35.578] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:35.628] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:35.677] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:35.727] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:35.777] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:35.827] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:35.878] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:35.939] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:35.978] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:36.028] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:36.076] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:36.129] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:36.178] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:36.226] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:36.276] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:36.327] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:36.377] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:36.429] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:36.477] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:36.527] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:36.578] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:36.628] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:36.678] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:36.728] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:36.777] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:36.827] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:36.878] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:36.928] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:36.977] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:37.027] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:37.077] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:37.128] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:37.178] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:37.227] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:37.278] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:37.327] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:37.378] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:37.428] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:37.478] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:37.527] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:37.577] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:37.635] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[18Jul2019 10:46:37.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[18Jul2019 10:46:48.262] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:48.309] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:48.360] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:48.411] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:48.461] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:48.511] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:48.562] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:48.611] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:48.660] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:48.712] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:48.762] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:48.811] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:48.862] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:48.911] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:48.961] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:49.011] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:49.062] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:49.111] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:49.159] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:49.211] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:49.260] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:49.311] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:49.361] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:49.411] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:49.461] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:49.512] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:49.562] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:49.612] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:49.660] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:49.712] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:49.760] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:49.812] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:49.861] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:49.912] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:49.946] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:50.012] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:50.061] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:50.111] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:50.161] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:50.214] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:50.262] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:50.312] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:50.361] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:50.412] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:50.463] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:50.511] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:50.560] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:50.610] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:50.661] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:50.711] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:50.760] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:50.810] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:50.860] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:50.910] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:50.961] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:51.028] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:51.060] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:51.110] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:51.162] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:51.212] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:51.262] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:51.310] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:51.362] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:51.410] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:51.461] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:51.510] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:51.560] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:51.610] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:51.661] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:51.711] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:51.760] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:51.810] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:51.861] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:51.911] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:51.961] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:52.011] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:52.060] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:52.110] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:52.161] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:52.210] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:52.260] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:52.310] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:52.360] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:52.396] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:52.461] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:52.511] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:52.560] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:52.610] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:52.661] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:52.712] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:52.761] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:52.811] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:52.862] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:52.911] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:52.959] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:53.009] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:53.060] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:53.110] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:53.161] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:53.210] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:53.260] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:53.310] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:53.361] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:53.410] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:53.460] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:53.510] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:53.560] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:53.611] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:53.662] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:53.710] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:53.760] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:53.811] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:53.862] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:53.910] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:53.959] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:54.009] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:54.061] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:54.111] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:54.161] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:54.212] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:54.261] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:54.311] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:54.361] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:54.410] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:54.461] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:54.510] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:54.560] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:54.610] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:54.661] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:54.710] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:54.760] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:54.810] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:54.861] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:54.910] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:54.960] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:55.011] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:55.061] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:55.109] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:55.160] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:55.210] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:55.260] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:55.311] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:55.360] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:55.412] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:55.462] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:55.510] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:55.560] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:55.610] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:55.661] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:55.713] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:55.760] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:55.810] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:55.860] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:55.911] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:55.960] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:56.011] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:56.061] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:56.110] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:56.161] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:56.209] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:56.260] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:56.309] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:56.360] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:56.410] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:56.460] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:56.510] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:56.560] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:56.611] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:56.661] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:56.710] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:56.753] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:56.810] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:56.861] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:56.911] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:56.960] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:57.010] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:57.062] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:57.111] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:57.161] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:57.211] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:57.261] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:57.311] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:57.361] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:57.411] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:57.460] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:57.511] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:57.561] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:57.611] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:57.660] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:57.711] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:57.762] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:57.812] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:57.861] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:57.911] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:57.961] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:58.011] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:58.061] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:58.111] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:58.161] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:58.211] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:46:58.261] [Client thread/INFO] [STDOUT/]: [com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile:tick:29]: FirstBlockTile.tick
+[18Jul2019 10:47:01.584] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[18Jul2019 10:47:01.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[18Jul2019 10:47:02.245] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[18Jul2019 10:47:02.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[18Jul2019 10:47:02.262] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[18Jul2019 10:47:02.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[18Jul2019 10:47:02.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[18Jul2019 10:47:02.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[18Jul2019 10:47:02.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[18Jul2019 10:47:02.739] [Server thread/INFO] [net.minecraft.world.chunk.ChunkManager/]: ThreadedAnvilChunkStorage (Mod Testing): All chunks are saved
+[18Jul2019 10:47:02.761] [Server thread/INFO] [net.minecraft.world.chunk.ChunkManager/]: ThreadedAnvilChunkStorage (Mod Testing): All chunks are saved
+[18Jul2019 10:47:02.862] [Client thread/INFO] [com.mojang.realmsclient.plugin.RealmsPluginImpl/]: Built for minecraft version 1.14.3
+[18Jul2019 10:47:03.659] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

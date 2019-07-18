@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x#x",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:oak_planks"
+    },
+    "#": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "daedricscrewmod1:basketball"
+  }
+}

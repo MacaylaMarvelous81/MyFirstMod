@@ -1,0 +1,116 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 7/17/19 8:09 PM
+Description: mouseClicked event handler
+
+java.lang.NoClassDefFoundError: czx
+	at realms.bc.getMainScreen(SourceFile:11) ~[realms-1.14.17.jar:1.14.17] {}
+	at net.minecraft.realms.RealmsBridge.switchToRealms(RealmsBridge.java:29) ~[forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.MainMenuScreen.switchToRealms(MainMenuScreen.java:185) ~[forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.MainMenuScreen.lambda$addSingleplayerMultiplayerButtons$7(MainMenuScreen.java:156) ~[forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.widget.button.Button.onPress(Button.java:16) ~[forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.widget.button.AbstractButton.onClick(AbstractButton.java:17) ~[forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.widget.Widget.mouseClicked(Widget.java:136) ~[forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.INestedGuiEventHandler.mouseClicked(INestedGuiEventHandler.java:28) ~[forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.MainMenuScreen.mouseClicked(MainMenuScreen.java:268) ~[forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.lambda$mouseButtonCallback$0(MouseHelper.java:86) ~[forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:441) ~[forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.mouseButtonCallback(MouseHelper.java:84) ~[forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10] {}
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at net.minecraft.client.MainWindow.func_216528_l(MainWindow.java:416) ~[forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.client.MainWindow.update(MainWindow.java:274) ~[forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.func_213227_b(Minecraft.java:977) ~[forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:941) ~[forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:384) ~[forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:127) ~[forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_221] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_221] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_221] {}
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_221] {}
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-3.0.1.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:50) [modlauncher-3.0.1.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:68) [modlauncher-3.0.1.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:80) [modlauncher-3.0.1.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-3.0.1.jar:?] {}
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:101) [forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-recomp.jar:?] {}
+Caused by: java.lang.ClassNotFoundException: czx
+	at java.lang.ClassLoader.findClass(ClassLoader.java:530) ~[?:1.8.0_221] {}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_221] {}
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:102) ~[modlauncher-3.0.1.jar:?] {}
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_221] {}
+	... 32 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at realms.bc.getMainScreen(SourceFile:11)
+	at net.minecraft.realms.RealmsBridge.switchToRealms(RealmsBridge.java:29)
+	at net.minecraft.client.gui.screen.MainMenuScreen.switchToRealms(MainMenuScreen.java:185)
+	at net.minecraft.client.gui.screen.MainMenuScreen.lambda$addSingleplayerMultiplayerButtons$7(MainMenuScreen.java:156)
+	at net.minecraft.client.gui.widget.button.Button.onPress(Button.java:16)
+	at net.minecraft.client.gui.widget.button.AbstractButton.onClick(AbstractButton.java:17)
+	at net.minecraft.client.gui.widget.Widget.mouseClicked(Widget.java:136)
+	at net.minecraft.client.gui.INestedGuiEventHandler.mouseClicked(INestedGuiEventHandler.java:28)
+	at net.minecraft.client.gui.screen.MainMenuScreen.mouseClicked(MainMenuScreen.java:268)
+	at net.minecraft.client.MouseHelper.lambda$mouseButtonCallback$0(MouseHelper.java:86)
+
+-- Affected screen --
+Details:
+	Screen name: net.minecraft.client.gui.screen.MainMenuScreen
+Stacktrace:
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:441)
+	at net.minecraft.client.MouseHelper.mouseButtonCallback(MouseHelper.java:84)
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36)
+	at org.lwjgl.system.JNI.invokeV(Native Method)
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101)
+	at net.minecraft.client.MainWindow.func_216528_l(MainWindow.java:416)
+	at net.minecraft.client.MainWindow.update(MainWindow.java:274)
+	at net.minecraft.client.Minecraft.func_213227_b(Minecraft.java:977)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:941)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:384)
+	at net.minecraft.client.main.Main.main(Main.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55)
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:50)
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:68)
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:80)
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65)
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:101)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.14.3
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_221, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 697740624 bytes (665 MB) / 2119172096 bytes (2021 MB) up to 3780640768 bytes (3605 MB)
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	FML: New FML!
+	Loaded coremods (and transformers): Nothing
+	Launched Version: MOD_DEV
+	LWJGL: 3.2.2 build 10
+	OpenGL: GeForce MX150/PCIe/SSE2 GL version 4.6.0 NVIDIA 391.25, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	CPU: 8x Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz

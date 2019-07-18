@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "ddd",
+    "rgr",
+    "rwr"
+  ],
+  "key": {
+    "d": {
+      "item": "minecraft:dirt"
+    },
+    "r": {
+      "item": "minecraft:white_wool"
+    },
+    "g": {
+      "item": "minecraft:apple"
+    },
+    "w": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "daedricscrewmod1:firstblock"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "xxx",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "x": {
+      "item": "daedricscrewmod1:firstblock"
+    }
+  },
+  "result": {
+    "item": "daedricscrewmod1:firstitem"
+  }
+}

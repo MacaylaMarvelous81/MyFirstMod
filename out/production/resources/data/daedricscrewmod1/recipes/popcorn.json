@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ppp",
+    "rwr",
+    "rwr"
+  ],
+  "key": {
+    "p": {
+      "item": "minecraft:yellow_dye"
+    },
+    "r": {
+      "item": "minecraft:red_wool"
+    },
+    "w": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "daedricscrewmod1:popcorn"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "daedricscrewmod1:block/firstblock",
+    "down": "daedricscrewmod1:block/firstblock",
+    "up": "daedricscrewmod1:block/firstblock",
+    "east": "daedricscrewmod1:block/firstblock",
+    "west": "daedricscrewmod1:block/firstblock",
+    "north": "daedricscrewmod1:block/firstblock_front",
+    "south": "daedricscrewmod1:block/firstblock"
+  }
+}

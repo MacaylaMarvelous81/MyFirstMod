@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": {"model": "daedricscrewmod1:block/firstblock"},
+    "facing=south": {"model": "daedricscrewmod1:block/firstblock", "y": 180},
+    "facing=west": {"model": "daedricscrewmod1:block/firstblock", "y": 270},
+    "facing=east": {"model": "daedricscrewmod1:block/firstblock", "y": 90},
+    "facing=up": {"model": "daedricscrewmod1:block/firstblock", "x":  -90},
+    "facing=down": {"model": "daedricscrewmod1:block/firstblock","x": 90}
+  }
+}
