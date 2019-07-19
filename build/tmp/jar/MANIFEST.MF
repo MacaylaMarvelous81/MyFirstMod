@@ -3,7 +3,7 @@ Implementation-Title: MyFirstMod
 Implementation-Version: 1.0
 Specification-Vendor: examplemodsareus
 Specification-Title: examplemod
-Implementation-Timestamp: 2019-07-18T19:54:28-0700
+Implementation-Timestamp: 2019-07-18T22:05:44-0700
 Specification-Version: 1
 Implementation-Vendor: examplemodsareus
 

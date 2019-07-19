@@ -3102,6 +3102,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2019-07-18 22:16:22 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "has_the_recipe": "2019-07-17 23:02:41 -0700"

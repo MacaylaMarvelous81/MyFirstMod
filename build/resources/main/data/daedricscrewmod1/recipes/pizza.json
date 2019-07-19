@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "ccc",
+    "bbb",
+    "bbb"
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:dirt"
+    },
+    "b": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "daedricscrewmod1:pizza"
+  }
+}
