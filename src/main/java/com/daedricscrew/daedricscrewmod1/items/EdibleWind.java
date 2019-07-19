@@ -1,15 +1,27 @@
 package com.daedricscrew.daedricscrewmod1.items;
 
+import com.daedricscrew.daedricscrewmod1.DaedricScrewMod1;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.Food;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.Effect;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.world.World;
 
-public class EdibleWind extends ScrewFoodItem {
+public class EdibleWind extends Item {
     public EdibleWind() {
-        super("ediblewind", 0, 0f);
+        super(new Properties()
+                .group(DaedricScrewMod1.setup.itemGroup)
+                .food(new Food.Builder()
+                        .saturation(0.0f)
+                        .hunger(0)
+                        .setAlwaysEdible()
+                        .build()
+                )
+        );
+        setRegistryName("ediblewind");
     }
     @Override
     public ItemStack onItemUseFinish(ItemStack stack, World worldIn, LivingEntity entityLiving) {
