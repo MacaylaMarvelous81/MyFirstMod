@@ -7,4 +7,8 @@ public class ModItems {
     public static FirstItem FIRSTITEM;
     @ObjectHolder("daedricscrewmod1:pizza")
     public static Pizza PIZZA;
+    @ObjectHolder("daedricscrewmod1:spaghettibowl")
+    public static SpaghettiBowl SPAGHETTIBOWL;
+    @ObjectHolder("daedricscrewmod1:ediblewind")
+    public static EdibleWind EDIBLEWIND;
 }

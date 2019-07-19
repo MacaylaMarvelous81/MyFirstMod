@@ -1,20 +1,22 @@
-[18Jul2019 22:13:46.262] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190624.152911, --fml.mcVersion, 1.14.3, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 27.0.55, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\jolie\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[18Jul2019 22:13:46.267] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 3.0.1+56+e6669cf starting: java version 1.8.0_221 by Oracle Corporation
-[18Jul2019 22:13:46.785] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[18Jul2019 22:13:47.493] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\jolie\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
-[18Jul2019 22:13:50.338] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[18Jul2019 22:13:51.347] [Client thread/INFO] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
-[18Jul2019 22:14:05.574] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
-[18Jul2019 22:14:08.594] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 27.0.55, for MC 1.14.3 with MCP 20190624.152911
-[18Jul2019 22:14:08.594] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v27.0.55 Initialized
-[18Jul2019 22:14:11.859] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[18Jul2019 22:14:12.038] [Client thread/INFO] [com.mojang.realmsclient.plugin.RealmsPluginImpl/]: Built for minecraft version 1.14.3
-[18Jul2019 22:14:12.108] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
-[18Jul2019 22:14:14.706] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[18Jul2019 22:14:15.117] [Realms Notification Availability checker #1/INFO] [realms.g/]: Could not authorize you against Realms server: Invalid session id
-[18Jul2019 22:14:15.125] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 27.0.55 Target: 27.0.59
-[18Jul2019 22:14:15.126] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [daedricscrewmod1] Starting version check at http://myurl.me/
-[18Jul2019 22:14:15.544] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[19Jul2019 11:47:35.199] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190624.152911, --fml.mcVersion, 1.14.3, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 27.0.55, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, C:\Users\jolie\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[19Jul2019 11:47:35.205] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 3.0.1+56+e6669cf starting: java version 1.8.0_221 by Oracle Corporation
+[19Jul2019 11:47:35.700] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[19Jul2019 11:47:36.340] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\jolie\.gradle\caches\forge_gradle\assets, --assetIndex, 1.14, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[19Jul2019 11:47:39.419] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[19Jul2019 11:47:40.444] [Client thread/INFO] [net.minecraftforge.fml.ModLoader/CORE]: Loading Network data for FML net version: FML2
+[19Jul2019 11:47:55.712] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
+[19Jul2019 11:47:59.021] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 27.0.55, for MC 1.14.3 with MCP 20190624.152911
+[19Jul2019 11:47:59.022] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v27.0.55 Initialized
+[19Jul2019 11:48:02.466] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[19Jul2019 11:48:02.643] [Client thread/INFO] [com.mojang.realmsclient.plugin.RealmsPluginImpl/]: Built for minecraft version 1.14.3
+[19Jul2019 11:48:02.709] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[19Jul2019 11:48:02.713] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[19Jul2019 11:48:02.715] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[19Jul2019 11:48:02.999] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[19Jul2019 11:48:05.240] [Realms Notification Availability checker #1/INFO] [realms.g/]: Could not authorize you against Realms server: Invalid session id
+[19Jul2019 11:48:05.260] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 27.0.55 Target: 27.0.60
+[19Jul2019 11:48:05.261] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [daedricscrewmod1] Starting version check at http://myurl.me/
+[19Jul2019 11:48:05.715] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.io.IOException: Server returned HTTP response code: 400 for URL: http://myurl.me/
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_221]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_221]
@@ -36,47 +38,46 @@ Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL:
 	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480) ~[?:1.8.0_221]
 	at net.minecraftforge.fml.VersionChecker$1.openUrlStream(VersionChecker.java:173) ~[?:?]
 	... 3 more
-[18Jul2019 22:14:21.536] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
-[18Jul2019 22:14:21.537] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
-[18Jul2019 22:14:21.734] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512 textures-atlas
-[18Jul2019 22:14:22.690] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
-[18Jul2019 22:14:22.692] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
-[18Jul2019 22:14:22.693] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
-[18Jul2019 22:14:40.028] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[18Jul2019 22:14:40.029] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[18Jul2019 22:14:40.030] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[18Jul2019 22:14:40.030] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[18Jul2019 22:14:40.031] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[18Jul2019 22:14:40.173] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.14.3
-[18Jul2019 22:14:40.173] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
-[18Jul2019 22:14:40.300] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
-[18Jul2019 22:14:40.343] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
-[18Jul2019 22:14:40.673] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-recomp.jar, main
-[18Jul2019 22:14:42.107] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
-[18Jul2019 22:14:43.642] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 811 advancements
-[18Jul2019 22:14:44.420] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[18Jul2019 22:14:45.898] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[18Jul2019 22:14:45.933] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[18Jul2019 22:14:45.933] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[18Jul2019 22:14:45.933] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[18Jul2019 22:14:46.433] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[18Jul2019 22:14:48.680] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[18Jul2019 22:14:48.680] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[18Jul2019 22:14:48.680] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[18Jul2019 22:14:48.680] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[18Jul2019 22:14:48.947] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
-[18Jul2019 22:14:49.447] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
-[18Jul2019 22:14:49.947] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 96%
-[18Jul2019 22:14:50.314] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 5883 ms
-[18Jul2019 22:14:50.698] [Server thread/INFO] [net.minecraft.world.chunk.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18Jul2019 22:14:50.699] [Server thread/INFO] [net.minecraft.world.chunk.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18Jul2019 22:14:52.818] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
-[18Jul2019 22:14:53.360] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:605d1752] logged in with entity id 164 at (193.7488405709271, 67.0, 24.607484897185962)
-[18Jul2019 22:14:53.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[18Jul2019 22:14:53.750] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[18Jul2019 22:14:53.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
-[18Jul2019 22:14:54.353] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 753 advancements
-[18Jul2019 22:14:55.233] [pool-3-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService/]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@4833772b[id=380df991-f603-344c-a090-369bad2a924a,name=Dev,properties={},legacy=false]
+[19Jul2019 11:48:11.418] [Client thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[19Jul2019 11:48:11.419] [Client thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[19Jul2019 11:48:11.607] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512 textures-atlas
+[19Jul2019 11:48:12.618] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
+[19Jul2019 11:48:12.620] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
+[19Jul2019 11:48:12.620] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
+[19Jul2019 11:53:38.620] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19Jul2019 11:53:38.621] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19Jul2019 11:53:38.622] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19Jul2019 11:53:38.622] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[19Jul2019 11:53:38.623] [Client thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[19Jul2019 11:53:38.775] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.14.3
+[19Jul2019 11:53:38.775] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[19Jul2019 11:53:38.909] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[19Jul2019 11:53:38.962] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[19Jul2019 11:53:39.317] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-recomp.jar, main
+[19Jul2019 11:53:40.612] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[19Jul2019 11:53:42.416] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 811 advancements
+[19Jul2019 11:53:42.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[19Jul2019 11:53:44.733] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[19Jul2019 11:53:44.733] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[19Jul2019 11:53:44.733] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[19Jul2019 11:53:44.733] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[19Jul2019 11:53:45.234] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[19Jul2019 11:53:45.400] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[19Jul2019 11:53:47.532] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[19Jul2019 11:53:47.532] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[19Jul2019 11:53:47.532] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[19Jul2019 11:53:47.532] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[19Jul2019 11:53:47.899] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 99%
+[19Jul2019 11:53:48.100] [Client thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 5216 ms
+[19Jul2019 11:53:48.583] [Server thread/INFO] [net.minecraft.world.chunk.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19Jul2019 11:53:48.584] [Server thread/INFO] [net.minecraft.world.chunk.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19Jul2019 11:53:50.878] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[19Jul2019 11:53:51.462] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:6b5e723b] logged in with entity id 244 at (194.8323719663169, 67.0, 25.244275079992672)
+[19Jul2019 11:53:51.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[19Jul2019 11:53:52.175] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[19Jul2019 11:53:52.215] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[19Jul2019 11:53:52.410] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 778 advancements
+[19Jul2019 11:53:53.973] [pool-3-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService/]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@10e24a18[id=380df991-f603-344c-a090-369bad2a924a,name=Dev,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[authlib-1.5.25.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) ~[authlib-1.5.25.jar:?]
@@ -99,8 +100,10 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_221]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_221]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
-[18Jul2019 22:14:55.903] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2902ms or 58 ticks behind
-[18Jul2019 22:15:00.441] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
+[19Jul2019 11:53:53.980] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2876ms or 57 ticks behind
+[19Jul2019 11:53:54.575] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[19Jul2019 11:53:54.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[19Jul2019 11:55:06.005] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
 java.lang.NullPointerException: null
 	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockContainer.<init>(FirstBlockContainer.java:29) ~[?:?]
 	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile.createMenu(FirstBlockTile.java:89) ~[?:?]
@@ -123,7 +126,7 @@ java.lang.NullPointerException: null
 	at net.minecraft.server.MinecraftServer.runScheduledTasks(MinecraftServer.java:687) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:634) [?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
-[18Jul2019 22:15:00.443] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
+[19Jul2019 11:55:06.006] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
 java.lang.NullPointerException: null
 	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockContainer.<init>(FirstBlockContainer.java:29) ~[?:?]
 	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile.createMenu(FirstBlockTile.java:89) ~[?:?]
@@ -146,7 +149,7 @@ java.lang.NullPointerException: null
 	at net.minecraft.server.MinecraftServer.runScheduledTasks(MinecraftServer.java:687) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:634) [?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
-[18Jul2019 22:15:02.950] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
+[19Jul2019 11:55:06.198] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
 java.lang.NullPointerException: null
 	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockContainer.<init>(FirstBlockContainer.java:29) ~[?:?]
 	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile.createMenu(FirstBlockTile.java:89) ~[?:?]
@@ -169,7 +172,7 @@ java.lang.NullPointerException: null
 	at net.minecraft.server.MinecraftServer.runScheduledTasks(MinecraftServer.java:687) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:634) [?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
-[18Jul2019 22:15:02.952] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
+[19Jul2019 11:55:06.200] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
 java.lang.NullPointerException: null
 	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockContainer.<init>(FirstBlockContainer.java:29) ~[?:?]
 	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile.createMenu(FirstBlockTile.java:89) ~[?:?]
@@ -192,302 +195,16 @@ java.lang.NullPointerException: null
 	at net.minecraft.server.MinecraftServer.runScheduledTasks(MinecraftServer.java:687) [?:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:634) [?:?]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
-[18Jul2019 22:15:03.101] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
-java.lang.NullPointerException: null
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockContainer.<init>(FirstBlockContainer.java:29) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile.createMenu(FirstBlockTile.java:89) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:165) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:131) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlock.onBlockActivated(FirstBlock.java:63) ~[?:?]
-	at net.minecraft.block.BlockState.onBlockActivated(BlockState.java:296) ~[?:?]
-	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:366) ~[?:?]
-	at net.minecraft.network.play.ServerPlayNetHandler.processTryUseItemOnBlock(ServerPlayNetHandler.java:896) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:45) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:12) ~[?:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:14) ~[?:?]
-	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) ~[?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
-	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
-	at net.minecraft.server.MinecraftServer.runScheduledTasks(MinecraftServer.java:687) [?:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:634) [?:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
-[18Jul2019 22:15:03.103] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
-java.lang.NullPointerException: null
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockContainer.<init>(FirstBlockContainer.java:29) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile.createMenu(FirstBlockTile.java:89) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:165) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:131) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlock.onBlockActivated(FirstBlock.java:63) ~[?:?]
-	at net.minecraft.block.BlockState.onBlockActivated(BlockState.java:296) ~[?:?]
-	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:366) ~[?:?]
-	at net.minecraft.network.play.ServerPlayNetHandler.processTryUseItemOnBlock(ServerPlayNetHandler.java:896) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:45) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:12) ~[?:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:14) ~[?:?]
-	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) ~[?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
-	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
-	at net.minecraft.server.MinecraftServer.runScheduledTasks(MinecraftServer.java:687) [?:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:634) [?:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
-[18Jul2019 22:15:03.269] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
-java.lang.NullPointerException: null
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockContainer.<init>(FirstBlockContainer.java:29) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile.createMenu(FirstBlockTile.java:89) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:165) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:131) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlock.onBlockActivated(FirstBlock.java:63) ~[?:?]
-	at net.minecraft.block.BlockState.onBlockActivated(BlockState.java:296) ~[?:?]
-	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:366) ~[?:?]
-	at net.minecraft.network.play.ServerPlayNetHandler.processTryUseItemOnBlock(ServerPlayNetHandler.java:896) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:45) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:12) ~[?:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:14) ~[?:?]
-	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) ~[?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
-	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:93) [?:?]
-	at net.minecraft.server.MinecraftServer.runScheduledTasks(MinecraftServer.java:686) [?:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:634) [?:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
-[18Jul2019 22:15:03.271] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
-java.lang.NullPointerException: null
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockContainer.<init>(FirstBlockContainer.java:29) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile.createMenu(FirstBlockTile.java:89) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:165) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:131) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlock.onBlockActivated(FirstBlock.java:63) ~[?:?]
-	at net.minecraft.block.BlockState.onBlockActivated(BlockState.java:296) ~[?:?]
-	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:366) ~[?:?]
-	at net.minecraft.network.play.ServerPlayNetHandler.processTryUseItemOnBlock(ServerPlayNetHandler.java:896) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:45) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:12) ~[?:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:14) ~[?:?]
-	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) ~[?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
-	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:93) [?:?]
-	at net.minecraft.server.MinecraftServer.runScheduledTasks(MinecraftServer.java:686) [?:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:634) [?:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
-[18Jul2019 22:15:03.452] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
-java.lang.NullPointerException: null
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockContainer.<init>(FirstBlockContainer.java:29) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile.createMenu(FirstBlockTile.java:89) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:165) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:131) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlock.onBlockActivated(FirstBlock.java:63) ~[?:?]
-	at net.minecraft.block.BlockState.onBlockActivated(BlockState.java:296) ~[?:?]
-	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:366) ~[?:?]
-	at net.minecraft.network.play.ServerPlayNetHandler.processTryUseItemOnBlock(ServerPlayNetHandler.java:896) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:45) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:12) ~[?:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:14) ~[?:?]
-	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) ~[?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
-	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
-	at net.minecraft.server.MinecraftServer.runScheduledTasks(MinecraftServer.java:687) [?:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:634) [?:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
-[18Jul2019 22:15:03.453] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
-java.lang.NullPointerException: null
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockContainer.<init>(FirstBlockContainer.java:29) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile.createMenu(FirstBlockTile.java:89) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:165) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:131) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlock.onBlockActivated(FirstBlock.java:63) ~[?:?]
-	at net.minecraft.block.BlockState.onBlockActivated(BlockState.java:296) ~[?:?]
-	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:366) ~[?:?]
-	at net.minecraft.network.play.ServerPlayNetHandler.processTryUseItemOnBlock(ServerPlayNetHandler.java:896) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:45) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:12) ~[?:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:14) ~[?:?]
-	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) ~[?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
-	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
-	at net.minecraft.server.MinecraftServer.runScheduledTasks(MinecraftServer.java:687) [?:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:634) [?:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
-[18Jul2019 22:15:03.586] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
-java.lang.NullPointerException: null
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockContainer.<init>(FirstBlockContainer.java:29) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile.createMenu(FirstBlockTile.java:89) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:165) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:131) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlock.onBlockActivated(FirstBlock.java:63) ~[?:?]
-	at net.minecraft.block.BlockState.onBlockActivated(BlockState.java:296) ~[?:?]
-	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:366) ~[?:?]
-	at net.minecraft.network.play.ServerPlayNetHandler.processTryUseItemOnBlock(ServerPlayNetHandler.java:896) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:45) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:12) ~[?:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:14) ~[?:?]
-	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) ~[?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
-	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
-	at net.minecraft.server.MinecraftServer.runScheduledTasks(MinecraftServer.java:687) [?:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:634) [?:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
-[18Jul2019 22:15:03.587] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
-java.lang.NullPointerException: null
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockContainer.<init>(FirstBlockContainer.java:29) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile.createMenu(FirstBlockTile.java:89) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:165) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:131) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlock.onBlockActivated(FirstBlock.java:63) ~[?:?]
-	at net.minecraft.block.BlockState.onBlockActivated(BlockState.java:296) ~[?:?]
-	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:366) ~[?:?]
-	at net.minecraft.network.play.ServerPlayNetHandler.processTryUseItemOnBlock(ServerPlayNetHandler.java:896) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:45) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:12) ~[?:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:14) ~[?:?]
-	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) ~[?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
-	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
-	at net.minecraft.server.MinecraftServer.runScheduledTasks(MinecraftServer.java:687) [?:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:634) [?:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
-[18Jul2019 22:15:37.365] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Unknown effect: minecraft:hun
-[18Jul2019 22:15:39.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Applied effect Hunger to Dev]
-[18Jul2019 22:15:39.579] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Applied effect Hunger to Dev
-[18Jul2019 22:15:52.596] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
-java.lang.NullPointerException: null
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockContainer.<init>(FirstBlockContainer.java:29) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile.createMenu(FirstBlockTile.java:89) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:165) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:131) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlock.onBlockActivated(FirstBlock.java:63) ~[?:?]
-	at net.minecraft.block.BlockState.onBlockActivated(BlockState.java:296) ~[?:?]
-	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:366) ~[?:?]
-	at net.minecraft.network.play.ServerPlayNetHandler.processTryUseItemOnBlock(ServerPlayNetHandler.java:896) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:45) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:12) ~[?:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:14) ~[?:?]
-	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) ~[?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
-	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
-	at net.minecraft.server.MinecraftServer.runScheduledTasks(MinecraftServer.java:687) [?:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:634) [?:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
-[18Jul2019 22:15:52.597] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
-java.lang.NullPointerException: null
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockContainer.<init>(FirstBlockContainer.java:29) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile.createMenu(FirstBlockTile.java:89) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:165) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:131) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlock.onBlockActivated(FirstBlock.java:63) ~[?:?]
-	at net.minecraft.block.BlockState.onBlockActivated(BlockState.java:296) ~[?:?]
-	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:366) ~[?:?]
-	at net.minecraft.network.play.ServerPlayNetHandler.processTryUseItemOnBlock(ServerPlayNetHandler.java:896) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:45) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:12) ~[?:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:14) ~[?:?]
-	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) ~[?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
-	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
-	at net.minecraft.server.MinecraftServer.runScheduledTasks(MinecraftServer.java:687) [?:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:634) [?:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
-[18Jul2019 22:15:53.348] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
-java.lang.NullPointerException: null
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockContainer.<init>(FirstBlockContainer.java:29) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile.createMenu(FirstBlockTile.java:89) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:165) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:131) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlock.onBlockActivated(FirstBlock.java:63) ~[?:?]
-	at net.minecraft.block.BlockState.onBlockActivated(BlockState.java:296) ~[?:?]
-	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:366) ~[?:?]
-	at net.minecraft.network.play.ServerPlayNetHandler.processTryUseItemOnBlock(ServerPlayNetHandler.java:896) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:45) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:12) ~[?:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:14) ~[?:?]
-	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) ~[?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
-	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
-	at net.minecraft.server.MinecraftServer.runScheduledTasks(MinecraftServer.java:687) [?:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:634) [?:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
-[18Jul2019 22:15:53.350] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
-java.lang.NullPointerException: null
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockContainer.<init>(FirstBlockContainer.java:29) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlockTile.createMenu(FirstBlockTile.java:89) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:165) ~[?:?]
-	at net.minecraftforge.fml.network.NetworkHooks.openGui(NetworkHooks.java:131) ~[?:?]
-	at com.daedricscrew.daedricscrewmod1.blocks.FirstBlock.onBlockActivated(FirstBlock.java:63) ~[?:?]
-	at net.minecraft.block.BlockState.onBlockActivated(BlockState.java:296) ~[?:?]
-	at net.minecraft.server.management.PlayerInteractionManager.func_219441_a(PlayerInteractionManager.java:366) ~[?:?]
-	at net.minecraft.network.play.ServerPlayNetHandler.processTryUseItemOnBlock(ServerPlayNetHandler.java:896) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:45) ~[?:?]
-	at net.minecraft.network.play.client.CPlayerTryUseItemOnBlockPacket.processPacket(CPlayerTryUseItemOnBlockPacket.java:12) ~[?:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:14) ~[?:?]
-	at net.minecraft.util.concurrent.TickDelayedTask.run(TickDelayedTask.java:20) ~[?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:131) [?:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:106) [?:?]
-	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:707) [?:?]
-	at net.minecraft.server.MinecraftServer.driveOne(MinecraftServer.java:701) [?:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveUntil(ThreadTaskExecutor.java:119) [?:?]
-	at net.minecraft.server.MinecraftServer.runScheduledTasks(MinecraftServer.java:687) [?:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:634) [?:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221]
-[18Jul2019 22:15:59.502] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[18Jul2019 22:15:59.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
-[18Jul2019 22:16:10.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the time to 1000]
-[18Jul2019 22:16:10.261] [Client thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set the time to 1000
-[18Jul2019 22:16:22.411] [Client thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 763 advancements
-[18Jul2019 22:16:31.203] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[18Jul2019 22:16:31.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
-[18Jul2019 22:16:54.452] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[18Jul2019 22:16:54.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
-[18Jul2019 22:16:55.168] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
-[18Jul2019 22:16:55.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[18Jul2019 22:16:55.189] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
-[18Jul2019 22:16:55.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[18Jul2019 22:16:55.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[18Jul2019 22:16:55.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[18Jul2019 22:16:55.211] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
-[18Jul2019 22:16:55.518] [Server thread/INFO] [net.minecraft.world.chunk.ChunkManager/]: ThreadedAnvilChunkStorage (Mod Testing): All chunks are saved
-[18Jul2019 22:16:55.566] [Server thread/INFO] [net.minecraft.world.chunk.ChunkManager/]: ThreadedAnvilChunkStorage (Mod Testing): All chunks are saved
-[18Jul2019 22:16:55.668] [Client thread/INFO] [com.mojang.realmsclient.plugin.RealmsPluginImpl/]: Built for minecraft version 1.14.3
-[18Jul2019 22:16:56.959] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[19Jul2019 11:55:12.804] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[19Jul2019 11:55:12.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[19Jul2019 11:55:13.518] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[19Jul2019 11:55:13.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[19Jul2019 11:55:13.538] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[19Jul2019 11:55:13.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[19Jul2019 11:55:13.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[19Jul2019 11:55:13.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[19Jul2019 11:55:13.586] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Mod Testing'/minecraft:overworld
+[19Jul2019 11:55:14.176] [Server thread/INFO] [net.minecraft.world.chunk.ChunkManager/]: ThreadedAnvilChunkStorage (Mod Testing): All chunks are saved
+[19Jul2019 11:55:14.193] [Server thread/INFO] [net.minecraft.world.chunk.ChunkManager/]: ThreadedAnvilChunkStorage (Mod Testing): All chunks are saved
+[19Jul2019 11:55:14.310] [Client thread/INFO] [com.mojang.realmsclient.plugin.RealmsPluginImpl/]: Built for minecraft version 1.14.3
+[19Jul2019 11:55:14.997] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

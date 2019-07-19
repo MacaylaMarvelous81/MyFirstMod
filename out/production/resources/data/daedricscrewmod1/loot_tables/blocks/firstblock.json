@@ -2,7 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "name": "pool1",
+      "name": "poolfirstblock1",
       "rolls": 1,
       "entries": [
         {
@@ -13,6 +13,16 @@
       "conditions": [
         {
           "condition": "minecraft:survives_explosion"
+        }
+      ]
+    },
+    {
+      "name": "pollfirstblock2",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "daedricscrewmod1:ediblewind"
         }
       ]
     }

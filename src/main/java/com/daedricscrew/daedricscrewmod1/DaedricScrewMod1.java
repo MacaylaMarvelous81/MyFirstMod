@@ -1,8 +1,10 @@
 package com.daedricscrew.daedricscrewmod1;
 
 import com.daedricscrew.daedricscrewmod1.blocks.*;
+import com.daedricscrew.daedricscrewmod1.items.EdibleWind;
 import com.daedricscrew.daedricscrewmod1.items.FirstItem;
 import com.daedricscrew.daedricscrewmod1.items.Pizza;
+import com.daedricscrew.daedricscrewmod1.items.SpaghettiBowl;
 import com.daedricscrew.daedricscrewmod1.setup.ClientProxy;
 import com.daedricscrew.daedricscrewmod1.setup.IProxy;
 import com.daedricscrew.daedricscrewmod1.setup.ModSetup;
@@ -63,6 +65,8 @@ public class DaedricScrewMod1
             itemRegistryEvent.getRegistry().register(new BlockItem(ModBlocks.POPCORN, creativeTab).setRegistryName("popcorn"));
             itemRegistryEvent.getRegistry().register(new FirstItem());
             itemRegistryEvent.getRegistry().register(new Pizza());
+            itemRegistryEvent.getRegistry().register(new SpaghettiBowl());
+            itemRegistryEvent.getRegistry().register(new EdibleWind());
         }
         @SubscribeEvent
         public static void onTileEntityRegistry(final RegistryEvent.Register<TileEntityType<?>> tileEntityRegistryEvent) {

@@ -3,5 +3,7 @@
   "block.daedricscrewmod1.basketball": "Basketball",
   "block.daedricscrewmod1.popcorn": "Popcorn",
   "itemGroup.daedricscrewmod1": "_Screw_'s First Mod",
-  "item.daedricscrewmod1.firstitem": "_Screw_'s First Item"
+  "item.daedricscrewmod1.firstitem": "_Screw_'s First Item",
+  "item.daedricscrewmod1.pizza": "Pizza",
+  "item.daedricscrewmod1.spaghettibowl": "Bowl of Spaghetti"
 }
