@@ -33,6 +33,9 @@ _Screw_'s first mod!
 Started 7/17/2019
 Tutorial by McJty
 Have fun!
+Currently adds:
+A few blocks
+A new pickaxe
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.daedricscrewmod1]] #optional
