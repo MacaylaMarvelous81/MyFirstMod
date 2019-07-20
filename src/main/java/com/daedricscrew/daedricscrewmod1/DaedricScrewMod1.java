@@ -1,10 +1,7 @@
 package com.daedricscrew.daedricscrewmod1;
 
 import com.daedricscrew.daedricscrewmod1.blocks.*;
-import com.daedricscrew.daedricscrewmod1.items.EdibleWind;
-import com.daedricscrew.daedricscrewmod1.items.FirstItem;
-import com.daedricscrew.daedricscrewmod1.items.Pizza;
-import com.daedricscrew.daedricscrewmod1.items.SpaghettiBowl;
+import com.daedricscrew.daedricscrewmod1.items.*;
 import com.daedricscrew.daedricscrewmod1.setup.ClientProxy;
 import com.daedricscrew.daedricscrewmod1.setup.IProxy;
 import com.daedricscrew.daedricscrewmod1.setup.ModSetup;
@@ -55,6 +52,8 @@ public class DaedricScrewMod1
             blockRegistryEvent.getRegistry().register(new FirstBlock());
             blockRegistryEvent.getRegistry().register(new Basketball());
             blockRegistryEvent.getRegistry().register(new Popcorn());
+            blockRegistryEvent.getRegistry().register(new RubyBlock());
+            blockRegistryEvent.getRegistry().register(new RubyOre());
         }
         @SubscribeEvent
         public static void onItemsRegistry(final RegistryEvent.Register<Item> itemRegistryEvent) {
@@ -67,6 +66,9 @@ public class DaedricScrewMod1
             itemRegistryEvent.getRegistry().register(new Pizza());
             itemRegistryEvent.getRegistry().register(new SpaghettiBowl());
             itemRegistryEvent.getRegistry().register(new EdibleWind());
+            itemRegistryEvent.getRegistry().register(new Ruby());
+            itemRegistryEvent.getRegistry().register(new BlockItem(ModBlocks.RUBYBLOCK, creativeTab).setRegistryName("rubyblock"));
+            itemRegistryEvent.getRegistry().register(new BlockItem(ModBlocks.RUBYORE, creativeTab).setRegistryName("rubyore"));
         }
         @SubscribeEvent
         public static void onTileEntityRegistry(final RegistryEvent.Register<TileEntityType<?>> tileEntityRegistryEvent) {

@@ -13,4 +13,8 @@ public class ModBlocks {
     public static TileEntityType<FirstBlockTile> FIRSTBLOCK_TILE;
     @ObjectHolder("daedricscrewmod1:firstblock")
     public static ContainerType<FirstBlockContainer> FIRSTBLOCK_CONTAINER;
+    @ObjectHolder("daedricscrewmod1:rubyblock")
+    public static RubyBlock RUBYBLOCK;
+    @ObjectHolder("daedricscrewmod1:rubyore")
+    public static RubyOre RUBYORE;
 }

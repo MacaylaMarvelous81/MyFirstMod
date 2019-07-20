@@ -6,5 +6,8 @@
   "item.daedricscrewmod1.firstitem": "_Screw_'s First Item",
   "item.daedricscrewmod1.pizza": "Pizza",
   "item.daedricscrewmod1.spaghettibowl": "Bowl of Spaghetti",
-  "item.daedricscrewmod1.ediblewind": "Edible Wind"
+  "item.daedricscrewmod1.ediblewind": "Edible Wind",
+  "block.daedricscrewmod1.rubyore": "Ruby Ore",
+  "block.daedricscrewmod1.rubyblock": "Ruby Block",
+  "item.daedricscrewmod1.ruby": "Ruby"
 }

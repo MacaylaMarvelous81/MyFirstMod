@@ -2,7 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "name": "pool3",
+      "name": "popcornpool",
       "rolls": 1,
       "entries": [
         {

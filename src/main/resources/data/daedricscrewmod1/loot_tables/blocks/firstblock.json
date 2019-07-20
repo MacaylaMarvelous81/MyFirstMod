@@ -2,7 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "name": "pool1",
+      "name": "firstblockpool",
       "rolls": 1,
       "entries": [
         {
@@ -12,6 +12,10 @@
         {
           "type": "minecraft:item",
           "name": "daedricscrewmod1:ediblewind"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "daedricscrewmod1:rubyore"
         }
       ],
       "conditions": [

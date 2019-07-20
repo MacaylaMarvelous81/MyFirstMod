@@ -11,4 +11,6 @@ public class ModItems {
     public static SpaghettiBowl SPAGHETTIBOWL;
     @ObjectHolder("daedricscrewmod1:ediblewind")
     public static EdibleWind EDIBLEWIND;
+    @ObjectHolder("daedricscrewmod1:ruby")
+    public static Ruby RUBY;
 }
