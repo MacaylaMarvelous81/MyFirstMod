@@ -72,6 +72,8 @@ public class DaedricScrewMod1
             itemRegistryEvent.getRegistry().register(new BlockItem(ModBlocks.RUBYBLOCK, creativeTab).setRegistryName("rubyblock"));
             itemRegistryEvent.getRegistry().register(new BlockItem(ModBlocks.RUBYORE, creativeTab).setRegistryName("rubyore"));
             itemRegistryEvent.getRegistry().register(new SwordItem(ItemTier.DIAMOND, 5, -3.5F, creativeTab).setRegistryName("rubysword"));
+            // TODO: Make ruby pickaxe
+            itemRegistryEvent.getRegistry().register(new PoisonMushroom());
         }
         @SubscribeEvent
         public static void onTileEntityRegistry(final RegistryEvent.Register<TileEntityType<?>> tileEntityRegistryEvent) {

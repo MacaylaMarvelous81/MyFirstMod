@@ -10,5 +10,9 @@
   "block.daedricscrewmod1.rubyore": "Ruby Ore",
   "block.daedricscrewmod1.rubyblock": "Ruby Block",
   "item.daedricscrewmod1.ruby": "Ruby",
-  "item.daedricscrewmod1.rubysword"
+  "item.daedricscrewmod1.rubysword": "Ruby Sword",
+  "item.daedricscrewmod1.rubypickaxe": "Ruby Pickaxe",
+  "death.attack.poisonmushroom": "%s ate a poison mushroom!",
+  "item.daedricscrewmod1.poisonmushroom": "Poison Mushroom",
+  "death.attack.poisonmushroom.player": "%1$s ate a poison mushroom while %2$s tried to kill them!"
 }

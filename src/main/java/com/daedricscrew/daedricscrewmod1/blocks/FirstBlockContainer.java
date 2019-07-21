@@ -21,6 +21,7 @@ public class FirstBlockContainer extends Container {
     private IItemHandler playerInventory;
 
     public FirstBlockContainer(int windowId, World world, BlockPos pos, PlayerInventory playerInventory, PlayerEntity player) {
+        // FIXME make container gui for firstblock
         super(FIRSTBLOCK_CONTAINER, windowId);
         tileEntity = world.getTileEntity(pos);
         this.playerEntity = player;

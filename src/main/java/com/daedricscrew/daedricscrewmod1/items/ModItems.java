@@ -19,4 +19,6 @@ public class ModItems {
     public static EdibleWind EDIBLEWIND;
     @ObjectHolder("daedricscrewmod1:ruby")
     public static Ruby RUBY;
+    @ObjectHolder("daedricscrewmod1:poisonmushroom")
+    public static PoisonMushroom POISONMUSHROOM;
 }

@@ -1,0 +1,83 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 7/21/19 10:21 AM
+Description: Ticking player
+
+java.lang.NullPointerException: Ticking player
+	at net.minecraft.entity.player.PlayerEntity.attackEntityFrom(PlayerEntity.java:867) ~[?:?] {pl:accesstransformer:B}
+	at net.minecraft.entity.player.ServerPlayerEntity.attackEntityFrom(ServerPlayerEntity.java:580) ~[?:?] {pl:accesstransformer:B}
+	at com.daedricscrew.daedricscrewmod1.items.PoisonMushroom.onItemUseFinish(PoisonMushroom.java:34) ~[?:?] {}
+	at net.minecraft.item.ItemStack.onItemUseFinish(ItemStack.java:208) ~[?:?] {}
+	at net.minecraft.entity.LivingEntity.onItemUseFinish(LivingEntity.java:2778) ~[?:?] {}
+	at net.minecraft.entity.player.ServerPlayerEntity.onItemUseFinish(ServerPlayerEntity.java:1053) ~[?:?] {pl:accesstransformer:B}
+	at net.minecraft.entity.LivingEntity.updateActiveHand(LivingEntity.java:2664) ~[?:?] {}
+	at net.minecraft.entity.LivingEntity.tick(LivingEntity.java:2112) ~[?:?] {}
+	at net.minecraft.entity.player.PlayerEntity.tick(PlayerEntity.java:221) ~[?:?] {pl:accesstransformer:B}
+	at net.minecraft.entity.player.ServerPlayerEntity.playerTick(ServerPlayerEntity.java:380) ~[?:?] {pl:accesstransformer:B}
+	at net.minecraft.network.play.ServerPlayNetHandler.tick(ServerPlayNetHandler.java:183) ~[?:?] {}
+	at net.minecraft.network.NetworkManager.tick(NetworkManager.java:257) ~[?:?] {}
+	at net.minecraft.network.NetworkSystem.tick(NetworkSystem.java:148) ~[?:?] {}
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:863) ~[?:?] {pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:781) ~[?:?] {pl:accesstransformer:B}
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118) ~[?:?] {pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:630) [?:?] {pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_221] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.entity.player.PlayerEntity.attackEntityFrom(PlayerEntity.java:867)
+	at net.minecraft.entity.player.ServerPlayerEntity.attackEntityFrom(ServerPlayerEntity.java:580)
+	at com.daedricscrew.daedricscrewmod1.items.PoisonMushroom.onItemUseFinish(PoisonMushroom.java:34)
+	at net.minecraft.item.ItemStack.onItemUseFinish(ItemStack.java:208)
+	at net.minecraft.entity.LivingEntity.onItemUseFinish(LivingEntity.java:2778)
+	at net.minecraft.entity.player.ServerPlayerEntity.onItemUseFinish(ServerPlayerEntity.java:1053)
+	at net.minecraft.entity.LivingEntity.updateActiveHand(LivingEntity.java:2664)
+	at net.minecraft.entity.LivingEntity.tick(LivingEntity.java:2112)
+	at net.minecraft.entity.player.PlayerEntity.tick(PlayerEntity.java:221)
+
+-- Player being ticked --
+Details:
+	Entity Type: minecraft:player (net.minecraft.entity.player.ServerPlayerEntity)
+	Entity ID: 261
+	Entity Name: Dev
+	Entity's Exact location: -15.41, 70.00, -211.90
+	Entity's Block location: World: (-16,70,-212), Chunk: (at 0,4,12 in -1,-14; contains blocks -16,0,-224 to -1,255,-209), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.entity.player.ServerPlayerEntity.playerTick(ServerPlayerEntity.java:380)
+	at net.minecraft.network.play.ServerPlayNetHandler.tick(ServerPlayNetHandler.java:183)
+	at net.minecraft.network.NetworkManager.tick(NetworkManager.java:257)
+
+-- Ticking connection --
+Details:
+	Connection: net.minecraft.network.NetworkManager@57fc7c13
+Stacktrace:
+	at net.minecraft.network.NetworkSystem.tick(NetworkSystem.java:148)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:863)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:781)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:630)
+	at java.lang.Thread.run(Thread.java:748)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.14.3
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_221, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 458352488 bytes (437 MB) / 2012217344 bytes (1919 MB) up to 3780640768 bytes (3605 MB)
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	FML: New FML!
+	Loaded coremods (and transformers): Nothing
+	Player Count: 1 / 8; [ServerPlayerEntity['Dev'/261, l='lots of spaghetti', x=-15.41, y=70.00, z=-211.90]]
+	Data Packs: vanilla, mod:forge, mod:daedricscrewmod1
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'
