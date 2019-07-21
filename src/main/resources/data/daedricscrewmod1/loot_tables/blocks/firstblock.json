@@ -16,6 +16,10 @@
         {
           "type": "minecraft:item",
           "name": "daedricscrewmod1:rubyore"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "daedricscrewmod1:poisonmushroom"
         }
       ],
       "conditions": [
