@@ -1,0 +1,19 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " x ",
+    " x ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "x": {
+      "item": "daedricscrewmod1:ruby"
+    }
+  },
+  "result": {
+    "item": "daedricscrewmod1:rubysword"
+  }
+}
