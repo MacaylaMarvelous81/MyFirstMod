@@ -12,7 +12,7 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.monster.SlimeEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.container.ContainerType;
-import net.minecraft.item.BlockItem;
+import net.minecraft.item.*;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.util.math.BlockPos;
@@ -25,7 +25,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import net.minecraft.item.Item;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod("daedricscrewmod1")
@@ -72,6 +71,7 @@ public class DaedricScrewMod1
             itemRegistryEvent.getRegistry().register(new Ruby());
             itemRegistryEvent.getRegistry().register(new BlockItem(ModBlocks.RUBYBLOCK, creativeTab).setRegistryName("rubyblock"));
             itemRegistryEvent.getRegistry().register(new BlockItem(ModBlocks.RUBYORE, creativeTab).setRegistryName("rubyore"));
+            itemRegistryEvent.getRegistry().register(new SwordItem(ItemTier.DIAMOND, 5, -3.5F, creativeTab).setRegistryName("rubysword"));
         }
         @SubscribeEvent
         public static void onTileEntityRegistry(final RegistryEvent.Register<TileEntityType<?>> tileEntityRegistryEvent) {

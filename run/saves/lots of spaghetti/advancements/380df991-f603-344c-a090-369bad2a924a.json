@@ -17,6 +17,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_log": "2019-07-20 20:18:53 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_wool_from_string": {
     "criteria": {
       "has_string": "2019-07-19 13:39:42 -0700"
@@ -49,7 +55,10 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2019-07-20 20:16:58 -0700",
       "minecraft:spider": "2019-07-19 13:39:42 -0700",
+      "minecraft:creeper": "2019-07-20 20:19:24 -0700",
+      "minecraft:cave_spider": "2019-07-20 20:22:56 -0700",
       "minecraft:zombie": "2019-07-19 13:59:44 -0700"
     },
     "done": false
@@ -60,9 +69,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_at_least_9_lapis": "2019-07-20 20:19:47 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_double_plant": "2019-07-20 20:16:47 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
       "has_log": "2019-07-19 13:38:22 -0700"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2019-07-20 20:20:06 -0700"
     },
     "done": true
   },
@@ -71,6 +98,12 @@
       "has_string": "2019-07-19 13:39:42 -0700"
     },
     "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "rotten_flesh": "2019-07-20 20:18:35 -0700"
+    },
+    "done": false
   },
   "minecraft:recipes/redstone/tripwire_hook": {
     "criteria": {
@@ -137,9 +170,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_at_least_9_lapis": "2019-07-20 20:19:47 -0700"
+    },
+    "done": true
+  },
   "minecraft:end/levitate": {
     "criteria": {
       "levitated": "2019-07-19 13:31:18 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2019-07-20 20:18:53 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2019-07-20 20:19:43 -0700"
     },
     "done": true
   },
@@ -152,6 +203,12 @@
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "in_water": "2019-07-19 13:30:33 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2019-07-20 20:18:13 -0700"
     },
     "done": true
   },
