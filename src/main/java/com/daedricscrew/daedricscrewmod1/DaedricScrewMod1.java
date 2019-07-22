@@ -10,6 +10,7 @@ import net.minecraft.block.Block;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.monster.SlimeEntity;
+import net.minecraft.entity.passive.ChickenEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.container.ContainerType;
 import net.minecraft.item.*;
@@ -18,6 +19,7 @@ import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.util.math.BlockPos;
 import net.minecraftforge.common.extensions.IForgeContainerType;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
@@ -74,6 +76,7 @@ public class DaedricScrewMod1
             itemRegistryEvent.getRegistry().register(new SwordItem(ItemTier.DIAMOND, 5, -3.5F, creativeTab).setRegistryName("rubysword"));
             // TODO: Make ruby pickaxe
             itemRegistryEvent.getRegistry().register(new PoisonMushroom());
+            itemRegistryEvent.getRegistry().register(new RidingPass());
         }
         @SubscribeEvent
         public static void onTileEntityRegistry(final RegistryEvent.Register<TileEntityType<?>> tileEntityRegistryEvent) {
