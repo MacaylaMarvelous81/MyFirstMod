@@ -15,5 +15,6 @@
   "death.attack.poisonmushroom": "%s ate a poison mushroom!",
   "item.daedricscrewmod1.poisonmushroom": "Poison Mushroom",
   "death.attack.poisonmushroom.player": "%1$s ate a poison mushroom while %2$s tried to kill them!",
-  "item.daedricscrewmod1.ridingpass": "Riding Pass"
+  "item.daedricscrewmod1.ridingpass": "Riding Pass",
+  "item.daedricscrewmod1.mushroom": "Mushy Mushroom"
 }

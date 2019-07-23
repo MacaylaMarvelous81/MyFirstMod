@@ -77,6 +77,7 @@ public class DaedricScrewMod1
             // TODO: Make ruby pickaxe
             itemRegistryEvent.getRegistry().register(new PoisonMushroom());
             itemRegistryEvent.getRegistry().register(new RidingPass());
+            itemRegistryEvent.getRegistry().register(new Mushroom());
         }
         @SubscribeEvent
         public static void onTileEntityRegistry(final RegistryEvent.Register<TileEntityType<?>> tileEntityRegistryEvent) {

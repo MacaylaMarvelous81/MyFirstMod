@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5460787f-27e9-408b-9879-104f1672bf03" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1$RegistryEvents.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1$RegistryEvents.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reobfJar/output.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/reobfJar/output.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/daedricscrewmod1/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/daedricscrewmod1/lang/en_us.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2019-07-21-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2019-07-21-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2019-07-21-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2019-07-21-2.log.gz" afterDir="false" />
@@ -20,7 +17,7 @@
       <change beforePath="$PROJECT_DIR$/run/logs/2019-07-21-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2019-07-21-4.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2019-07-21-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2019-07-21-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2019-07-21-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2019-07-21-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2019-07-21-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2019-07-21-7.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2019-07-21-7.log.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -28,8 +25,8 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/lots of spaghetti/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/lots of spaghetti/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/data/scoreboard.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/lots of spaghetti/data/scoreboard.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/lots of spaghetti/level.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/lots of spaghetti/level.dat_old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/lots of spaghetti/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
@@ -42,9 +39,12 @@
       <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/lots of spaghetti/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/Ruby.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/Ruby.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/RidingPass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/RidingPass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/setup/ClientProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/setup/ClientProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/setup/IProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/setup/IProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/setup/ServerProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/setup/ServerProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/daedricscrewmod1/loot_tables/blocks/firstblock.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/daedricscrewmod1/loot_tables/blocks/firstblock.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="78" column="69" selection-start-line="78" selection-start-column="69" selection-end-line="78" selection-end-column="69" />
+            <state relative-caret-position="470">
+              <caret line="76" column="38" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,85 +113,87 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/models/item/ridingpass.json">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/Mushroom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+            <state relative-caret-position="425">
+              <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/data/daedricscrewmod1/loot_tables/blocks/firstblock.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/textures/item/mushroom.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/lang/en_us.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/Ruby.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/RidingPass.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/textures/item/firstitem.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/models/item/mushroom.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/setup/ClientProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge/eventbus/0.10.3-milestone.0.1+1a5fa31/16d31883ea3e5d43bbabe78109012947f27a85da/eventbus-0.10.3-milestone.0.1+1a5fa31-sources.jar!/net/minecraftforge/eventbus/api/SubscribeEvent.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/setup/ServerProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="323">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraftforge/common/ForgeHooks.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/setup/IProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="747" column="35" selection-start-line="747" selection-start-column="35" selection-end-line="747" selection-end-column="35" />
+            <state relative-caret-position="119">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraft/entity/passive/horse/HorseEntity.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraft/command/impl/TitleCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2788">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraftforge/event/entity/player/PlayerInteractEvent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-207">
-              <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+            <state relative-caret-position="357">
+              <caret line="70" column="19" selection-start-line="70" selection-end-line="71" />
             </state>
           </provider>
         </entry>
@@ -225,11 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/data/daedricscrewmod1/recipes/spaghettibowl.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/models/item/ediblewind.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/ScrewFoodItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/EdibleWind.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/Pizza.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/models/item/ruby.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/blocks/RubyBlock.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/blockstates/rubyblock.json" />
@@ -263,18 +260,23 @@
         <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/blocks/FirstBlockContainer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/blocks/FirstBlockScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/damagesources/PoisonMushroomDamage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/ModItems.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/models/item/poisonmushroom.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/damagesources/ModDamageSources.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/PoisonMushroom.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/RideChicken.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/Ruby.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/RidingPass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/models/item/ridingpass.json" />
         <option value="$PROJECT_DIR$/src/main/resources/data/daedricscrewmod1/loot_tables/blocks/firstblock.json" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/RidingPass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/ModItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/setup/IProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/setup/ServerProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/setup/ClientProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/models/item/mushroom.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/Mushroom.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/lang/en_us.json" />
       </list>
     </option>
@@ -292,6 +294,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -556,8 +560,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -565,19 +567,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/models/item" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\assets\daedricscrewmod1\models\item" />
-      <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\assets\daedricscrewmod1\textures\item" />
-      <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\data\daedricscrewmod1\recipes" />
-      <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\assets\daedricscrewmod1\models\block" />
-      <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\assets\daedricscrewmod1\blockstates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\data\daedricscrewmod1" />
       <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\data\daedricscrewmod1\loot_tables" />
       <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\assets\daedricscrewmod1" />
       <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\data\daedricscrewmod1\loot_tables\blocks" />
       <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\assets\daedricscrewmod1\textures\block" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\assets\daedricscrewmod1\models\item" />
+      <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\assets\daedricscrewmod1\textures\item" />
+      <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\data\daedricscrewmod1\recipes" />
+      <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\assets\daedricscrewmod1\models\block" />
+      <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\assets\daedricscrewmod1\blockstates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -722,15 +724,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26545843" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2707889" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32936078" />
@@ -738,7 +741,7 @@
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.3997833" />
+      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32936078" />
@@ -758,125 +761,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/models/block/firstblock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraft/world/biome/NetherBiome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraft/world/World.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="87" column="22" selection-start-line="87" selection-start-column="22" selection-end-line="87" selection-end-column="22" />
-          <folding>
-            <element signature="e#54844#54845#0" expanded="true" />
-            <element signature="e#54878#54879#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraft/world/dimension/Dimension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraft/world/gen/OverworldGenSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/OreGen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/daedricscrewmod1/recipes/ruby.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/daedricscrewmod1/recipes/rubysword.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/ModTiers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraft/item/ItemTier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/tiers/ModTiers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/tiers/RubyTier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/textures/item/rubypickaxe.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/models/item/rubypickaxe.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/blocks/FirstBlockScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/blocks/FirstBlockContainer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -904,13 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/SpaghettiBowl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/Pizza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -932,16 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/ModItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/textures/item/pizza.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -958,20 +825,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/damagesources/PoisonMushroomDamage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/damagesources/ModDamageSources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/damagesources/PoisonMushroomDamage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/damagesources/ModDamageSources.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraft/client/renderer/entity/model/BlazeModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-137">
@@ -981,13 +836,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/pack.mcmeta">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraft/util/DamageSource.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1059,34 +907,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraftforge/event/entity/player/PlayerInteractEvent.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/RideChicken.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/models/item/ridingpass.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207">
-          <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+        <state relative-caret-position="51">
+          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraftforge/common/ForgeHooks.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/daedricscrewmod1/loot_tables/blocks/firstblock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="747" column="35" selection-start-line="747" selection-start-column="35" selection-end-line="747" selection-end-column="35" />
+        <state relative-caret-position="425">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge/eventbus/0.10.3-milestone.0.1+1a5fa31/16d31883ea3e5d43bbabe78109012947f27a85da/eventbus-0.10.3-milestone.0.1+1a5fa31-sources.jar!/net/minecraftforge/eventbus/api/SubscribeEvent.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/RideChicken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1097,44 +936,178 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge/eventbus/0.10.3-milestone.0.1+1a5fa31/16d31883ea3e5d43bbabe78109012947f27a85da/eventbus-0.10.3-milestone.0.1+1a5fa31-sources.jar!/net/minecraftforge/eventbus/api/SubscribeEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraftforge/common/ForgeHooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10064">
+          <caret line="747" column="35" selection-start-line="747" selection-start-column="35" selection-end-line="747" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraftforge/event/entity/player/PlayerInteractEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/RidingPass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="340">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/SpaghettiBowl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraft/util/text/Style.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="120" column="13" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraftforge/event/entity/player/AdvancementEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraft/command/impl/AdvancementCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraftforge/event/entity/living/LivingDeathEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/FirstItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/Override.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraft/util/text/ITextComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/ModItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraft/command/impl/TitleCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="70" column="19" selection-start-line="70" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/setup/IProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/setup/ServerProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/setup/ClientProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
+          <folding>
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/textures/item/mushroom.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/textures/item/firstitem.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/models/item/mushroom.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="78" column="69" selection-start-line="78" selection-start-column="69" selection-end-line="78" selection-end-column="69" />
+        <state relative-caret-position="470">
+          <caret line="76" column="38" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/models/item/ridingpass.json">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/Mushroom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/daedricscrewmod1/loot_tables/blocks/firstblock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        <state relative-caret-position="425">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/lang/en_us.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        <state relative-caret-position="306">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
         </state>
       </provider>
     </entry>

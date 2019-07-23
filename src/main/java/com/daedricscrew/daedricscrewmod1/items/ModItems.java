@@ -21,4 +21,6 @@ public class ModItems {
     public static Ruby RUBY;
     @ObjectHolder("daedricscrewmod1:poisonmushroom")
     public static PoisonMushroom POISONMUSHROOM;
+    @ObjectHolder("daedricscrewmod1:mushroom")
+    public static Mushroom MUSHROOM;
 }
