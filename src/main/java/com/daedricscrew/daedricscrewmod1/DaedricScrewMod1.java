@@ -7,8 +7,10 @@ import com.daedricscrew.daedricscrewmod1.setup.IProxy;
 import com.daedricscrew.daedricscrewmod1.setup.ModSetup;
 import com.daedricscrew.daedricscrewmod1.setup.ServerProxy;
 import net.minecraft.block.Block;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
+import net.minecraft.entity.monster.GiantEntity;
 import net.minecraft.entity.monster.SlimeEntity;
 import net.minecraft.entity.passive.ChickenEntity;
 import net.minecraft.entity.player.PlayerInventory;
@@ -17,6 +19,7 @@ import net.minecraft.item.*;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
 import net.minecraftforge.common.extensions.IForgeContainerType;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
@@ -27,6 +30,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import javax.smartcardio.TerminalFactorySpi;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod("daedricscrewmod1")

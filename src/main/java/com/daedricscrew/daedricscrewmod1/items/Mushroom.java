@@ -24,7 +24,9 @@ public class Mushroom extends ScrewFoodItem {
             player.heal(5.0F);
             // FIXME chat message appears 2 times
             // TODO use something other than a command
-            DaedricScrewMod1.proxy.getClientPlayerReal().sendChatMessage("/tellraw @s {\"color\":\"red\",\"text\":\"You ate a mushy mushroom and now you feel better!\"}");
+            if(worldIn.isRemote()) {
+                DaedricScrewMod1.proxy.getClientPlayerReal().sendChatMessage("/tellraw @s {\"color\":\"red\",\"text\":\"You ate a mushy mushroom and now you feel better!\"}");
+            }
         }
         return super.onItemUseFinish(stack, worldIn, entityLiving);
     }
