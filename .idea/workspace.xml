@@ -2,63 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5460787f-27e9-408b-9879-104f1672bf03" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1$RegistryEvents.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1$RegistryEvents.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/daedricscrewmod1/recipes/ruby_smelt.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1$RegistryEvents.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1$RegistryEvents.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/data/daedricscrewmod1/recipes/ruby_smelt.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/advancements/5140fef2-b4b6-341b-afbc-4595996d4332.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/advancements/a094c00a-97d3-3e70-b67e-5162bb181d1f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/data/capabilities.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/data/raids.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/data/scoreboard.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/level.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/level.dat_old" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/playerdata/5140fef2-b4b6-341b-afbc-4595996d4332.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/playerdata/a094c00a-97d3-3e70-b67e-5162bb181d1f.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/poi/r.-1.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/poi/r.-1.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/poi/r.0.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/poi/r.0.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/region/r.-1.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/region/r.-1.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/region/r.-1.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/region/r.-2.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/region/r.-2.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/region/r.0.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/region/r.0.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/region/r.0.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/region/r.1.-1.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/region/r.1.-2.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/region/r.1.0.mca" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/serverconfig/forge-server.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/session.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/stats/5140fef2-b4b6-341b-afbc-4595996d4332.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/lots of spaghetti/stats/a094c00a-97d3-3e70-b67e-5162bb181d1f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/daedricscrewmod1/recipes/ruby_smelt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/lang/en_us.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -115,19 +66,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/setup/ServerProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-              <folding>
-                <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
@@ -145,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/Mushroom.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+            <state relative-caret-position="246">
+              <caret line="87" column="136" lean-forward="true" selection-start-line="87" selection-start-column="136" selection-end-line="87" selection-end-column="136" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,19 +96,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraft/world/World.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/setup/ModSetup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="112" selection-start-line="112" selection-end-line="112" />
+            <state relative-caret-position="68">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/data/daedricscrewmod1/recipes/cactisword.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+            <state relative-caret-position="272">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/lang/en_us.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -178,33 +125,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/mods.toml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            <state relative-caret-position="-39">
+              <caret line="20" column="97" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="97" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/pack.mcmeta">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/models/item/cactisword.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/ModItems.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraft/entity/monster/CreeperEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/blocks/FirstBlock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -236,8 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/data/daedricscrewmod1/loot_tables/blocks/basketball.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/data/daedricscrewmod1/loot_tables/blocks/rubyblock.json" />
         <option value="$PROJECT_DIR$/src/main/resources/data/daedricscrewmod1/recipes/rubyblock.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/blocks/RubyOre.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/blocks/ModBlocks.java" />
@@ -273,7 +221,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/RidingPass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/ModItems.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/models/item/mushroom.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/lang/en_us.json" />
         <option value="$PROJECT_DIR$/src/main/resources/data/daedricscrewmod1/recipes/ruby_smelt.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/entities/TestGiant.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/entities/ModEntities.java" />
@@ -283,10 +230,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/setup/ClientProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/setup/ServerProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/entities/CreeperPet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/update.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/models/item/cactisword.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/data/daedricscrewmod1/recipes/cactisword.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/lang/en_us.json" />
       </list>
     </option>
   </component>
@@ -573,22 +523,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/models/item" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/data/daedricscrewmod1/recipes" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\data\daedricscrewmod1\recipes" />
+      <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\assets\daedricscrewmod1\models\item" />
+      <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\assets\daedricscrewmod1\textures\item" />
+      <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\assets\daedricscrewmod1\models\block" />
+      <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\assets\daedricscrewmod1\blockstates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\assets\daedricscrewmod1\models\item" />
       <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\data\daedricscrewmod1" />
       <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\data\daedricscrewmod1\loot_tables" />
       <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\assets\daedricscrewmod1" />
       <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\data\daedricscrewmod1\loot_tables\blocks" />
-      <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\assets\daedricscrewmod1\textures\block" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\assets\daedricscrewmod1\models\item" />
-      <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\assets\daedricscrewmod1\textures\item" />
-      <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\data\daedricscrewmod1\recipes" />
-      <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\assets\daedricscrewmod1\models\block" />
-      <recent name="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\src\main\resources\assets\daedricscrewmod1\blockstates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -739,16 +689,16 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2671875" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2671875" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32910052" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32910052" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32910052" />
       <window_info anchor="bottom" id="Version Control" order="4" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32910052" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32910052" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4116402" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -769,21 +719,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/RideChicken.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/models/item/ridingpass.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/daedricscrewmod1/loot_tables/blocks/firstblock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/Ruby.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -878,16 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/ModItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2/forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-sources.jar!/net/minecraft/command/impl/TitleCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -897,13 +822,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/textures/item/mushroom.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/lang/en_us.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/textures/item/firstitem.png">
       <provider selected="true" editor-type-id="images" />
@@ -994,13 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/setup/ModSetup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/entities/CreeperPet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/setup/IProxy.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1079,17 +990,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/mods.toml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        <state relative-caret-position="-39">
+          <caret line="20" column="97" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/models/item/cactisword.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/items/ModItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/setup/ModSetup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/daedricscrewmod1/recipes/cactisword.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/daedricscrewmod1/lang/en_us.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/daedricscrew/daedricscrewmod1/DaedricScrewMod1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+        <state relative-caret-position="246">
+          <caret line="87" column="136" lean-forward="true" selection-start-line="87" selection-start-column="136" selection-end-line="87" selection-end-column="136" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

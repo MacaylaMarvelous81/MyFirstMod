@@ -1,9 +1,33 @@
 {
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2019-08-11 13:41:27 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:skeleton": "2019-08-11 13:41:27 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2019-08-11 13:41:27 -0700"
+    },
+    "done": false
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:forest": "2019-08-11 12:21:44 -0700"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2019-08-11 13:41:30 -0700"
+    },
+    "done": true
   },
   "DataVersion": 1968
 }

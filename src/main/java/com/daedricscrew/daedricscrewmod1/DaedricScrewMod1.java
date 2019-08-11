@@ -85,6 +85,7 @@ public class DaedricScrewMod1
             itemRegistryEvent.getRegistry().register(new PoisonMushroom());
             itemRegistryEvent.getRegistry().register(new RidingPass());
             itemRegistryEvent.getRegistry().register(new Mushroom());
+            itemRegistryEvent.getRegistry().register(new SwordItem(ItemTier.IRON, 2, -2.1F, creativeTab).setRegistryName("cactisword"));
         }
         @SubscribeEvent
         public static void onTileEntityRegistry(final RegistryEvent.Register<TileEntityType<?>> tileEntityRegistryEvent) {
