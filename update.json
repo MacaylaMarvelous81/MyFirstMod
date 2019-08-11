@@ -1,0 +1,10 @@
+{
+	"homepage": "https://github.com/MacaylaMarvelous81/MyFirstMod/releases",
+	"1.14.3": {
+		"1.7.2": "Add update.json"
+	},
+	"promos": {
+		"1.14.3-latest": "1.7.2",
+		"1.14.3-recommended": "1.7.2"
+	}
+}

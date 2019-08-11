@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "daedricscrewmod1:rubyore"
-  },
-  "result": "minecraft:ruby",
-  "experience": 2.5,
-  "cookingtime": 300
-}
