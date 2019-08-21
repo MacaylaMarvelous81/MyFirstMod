@@ -1,4 +1,22 @@
 {
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2019-08-11 22:43:25 -0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "chicken": "2019-08-11 22:43:28 -0700"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2019-08-11 22:43:28 -0700"
+    },
+    "done": true
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2019-08-11 13:41:27 -0700"
@@ -11,9 +29,16 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2019-08-11 22:43:25 -0700"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:skeleton": "2019-08-11 13:41:27 -0700"
+      "minecraft:skeleton": "2019-08-11 13:41:27 -0700",
+      "minecraft:zombie": "2019-08-11 22:43:13 -0700"
     },
     "done": false
   },
@@ -26,6 +51,12 @@
   "minecraft:recipes/misc/bone_meal": {
     "criteria": {
       "has_bone": "2019-08-11 13:41:30 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2019-08-11 22:43:25 -0700"
     },
     "done": true
   },

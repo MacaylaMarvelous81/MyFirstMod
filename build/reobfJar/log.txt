@@ -1,4 +1,4 @@
-Args: "--in-jar", "C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\build\libs\daedricscrewmod1-1.8.jar", "--out-jar", "C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\build\reobfJar\output.jar", "--srg-in", "C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\build\createMcpToSrg\output.tsrg", "--live"
+Args: "--in-jar", "C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\build\libs\daedricscrewmod1-1.8.1.jar", "--out-jar", "C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\build\reobfJar\output.jar", "--srg-in", "C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\build\createMcpToSrg\output.tsrg", "--live"
 Classpath: C:\Users\jolie\.gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.8.3\SpecialSource-1.8.3-shaded.jar
 Classpath: C:\Users\jolie\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2\forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-recomp.jar
 Classpath: C:\Users\jolie\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2\forge-1.14.3-27.0.55_mapped_snapshot_20190621-1.14.2-launcher.jar
