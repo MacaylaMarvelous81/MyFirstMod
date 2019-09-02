@@ -4,10 +4,11 @@
 		"1.7.2": "Add update.json",
 		"1.8": "Add cactus sword",
 		"1.8.1": "Add icon",
-		"1.8.2": "Edit some death messages"
+		"1.8.2": "Edit some death messages",
+		"1.8.3": "Fix GUI! Finally!"
 	},
 	"promos": {
-		"1.14.3-latest": "1.8.2",
-		"1.14.3-recommended": "1.8.1"
+		"1.14.3-latest": "1.8.3",
+		"1.14.3-recommended": "1.8.3"
 	}
 }

@@ -3,6 +3,7 @@ package com.daedricscrew.daedricscrewmod1.blocks;
 import afu.org.checkerframework.checker.oigj.qual.O;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.ContainerBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.LivingEntity;
@@ -62,6 +63,10 @@ public class FirstBlock extends Block {
             if(tileEntity instanceof INamedContainerProvider) {
                 NetworkHooks.openGui((ServerPlayerEntity) player, (INamedContainerProvider) tileEntity, tileEntity.getPos());
             }
+            else {
+                throw new IllegalStateException("Our named container provider is missing!");
+            }
+            return true;
         }
         return super.onBlockActivated(state, world, pos, player, hand, result);
     }
