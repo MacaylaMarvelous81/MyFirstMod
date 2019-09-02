@@ -21,5 +21,6 @@
   "death.attack.mob": "%1$s was murdered by %2$s",
   "death.attack.mob.item": "%1$s was murdered by %2$s using %3$s",
   "death.attack.player": "%1$s was murdered by %2$s",
-  "death.attack.player.item": "%1$s was murdered by %2$s using %3$s"
+  "death.attack.player.item": "%1$s was murdered by %2$s using %3$s",
+  "block.daedricscrewmod1.donationbox": "Donation Box"
 }

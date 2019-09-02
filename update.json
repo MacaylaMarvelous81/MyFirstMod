@@ -5,10 +5,11 @@
 		"1.8": "Add cactus sword",
 		"1.8.1": "Add icon",
 		"1.8.2": "Edit some death messages",
-		"1.8.3": "Fix GUI! Finally!"
+		"1.8.3": "Fix GUI! Finally!",
+		"1.9": "Add broken donation box (if you can, help pls)\nEdit description"
 	},
 	"promos": {
-		"1.14.3-latest": "1.8.3",
+		"1.14.3-latest": "1.9",
 		"1.14.3-recommended": "1.8.3"
 	}
 }

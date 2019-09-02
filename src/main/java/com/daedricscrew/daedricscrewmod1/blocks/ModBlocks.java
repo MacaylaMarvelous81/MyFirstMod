@@ -17,4 +17,10 @@ public class ModBlocks {
     public static RubyBlock RUBYBLOCK;
     @ObjectHolder("daedricscrewmod1:rubyore")
     public static RubyOre RUBYORE;
+    @ObjectHolder("daedricscrewmod1:donationbox")
+    public static DonationBox DONATIONBOX;
+    @ObjectHolder("daedricscrewmod1:donationbox")
+    public static TileEntityType<DonationBoxTile> DONATIONBOX_TILE;
+    @ObjectHolder("daedricscrewmod1:donationbox")
+    public static ContainerType<DonationBoxContainer> DONATIONBOX_CONTAINER;
 }

@@ -66,6 +66,7 @@ public class DaedricScrewMod1
             blockRegistryEvent.getRegistry().register(new Popcorn());
             blockRegistryEvent.getRegistry().register(new RubyBlock());
             blockRegistryEvent.getRegistry().register(new RubyOre());
+            blockRegistryEvent.getRegistry().register(new DonationBox());
         }
         @SubscribeEvent
         public static void onItemsRegistry(final RegistryEvent.Register<Item> itemRegistryEvent) {
@@ -87,10 +88,12 @@ public class DaedricScrewMod1
             itemRegistryEvent.getRegistry().register(new RidingPass());
             itemRegistryEvent.getRegistry().register(new Mushroom());
             itemRegistryEvent.getRegistry().register(new SwordItem(ItemTier.IRON, 2, -2.1F, creativeTab).setRegistryName("cactisword"));
+            itemRegistryEvent.getRegistry().register(new BlockItem(ModBlocks.DONATIONBOX, creativeTab).setRegistryName("donationbox"));
         }
         @SubscribeEvent
         public static void onTileEntityRegistry(final RegistryEvent.Register<TileEntityType<?>> tileEntityRegistryEvent) {
             tileEntityRegistryEvent.getRegistry().register(TileEntityType.Builder.create(FirstBlockTile::new, ModBlocks.FIRSTBLOCK).build(null).setRegistryName("firstblock"));
+            tileEntityRegistryEvent.getRegistry().register(TileEntityType.Builder.create(DonationBoxTile::new, ModBlocks.DONATIONBOX).build(null).setRegistryName("donationbox"));
         }
         @SubscribeEvent
         public static void onContainerRegistry(final RegistryEvent.Register<ContainerType<?>> containerRegistryEvent) {
@@ -98,6 +101,10 @@ public class DaedricScrewMod1
                 BlockPos pos = data.readBlockPos();
                 return new FirstBlockContainer(windowId, proxy.getClientWorld(), pos, inv, proxy.getClientPlayer());
             }).setRegistryName("firstblock")));
+            containerRegistryEvent.getRegistry().register((IForgeContainerType.create((windowId, inv, data) -> {
+                BlockPos pos = data.readBlockPos();
+                return new DonationBoxContainer(windowId, proxy.getClientWorld(), pos, inv, proxy.getClientPlayer());
+            }).setRegistryName("donationbox")));
         }
     }
 }

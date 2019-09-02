@@ -1,4 +1,5 @@
 package com.daedricscrew.daedricscrewmod1.setup;
+import com.daedricscrew.daedricscrewmod1.blocks.DonationBoxScreen;
 import com.daedricscrew.daedricscrewmod1.blocks.FirstBlockScreen;
 import com.daedricscrew.daedricscrewmod1.blocks.ModBlocks;
 import net.minecraft.client.entity.player.ClientPlayerEntity;
@@ -11,6 +12,7 @@ public class ClientProxy implements IProxy {
     @Override
     public void init() {
         ScreenManager.registerFactory(ModBlocks.FIRSTBLOCK_CONTAINER, FirstBlockScreen::new);
+        ScreenManager.registerFactory(ModBlocks.DONATIONBOX_CONTAINER, DonationBoxScreen::new);
     }
 
     @Override

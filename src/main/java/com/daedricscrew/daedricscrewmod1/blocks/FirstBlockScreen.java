@@ -8,7 +8,6 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.text.ITextComponent;
 
 public class FirstBlockScreen extends ContainerScreen<FirstBlockContainer> {
-    // FIXME make container gui for firstblock
     private ResourceLocation GUI = new ResourceLocation(DaedricScrewMod1.MODID, "textures/gui/firstblock_gui.png");
     @Override
     public void render(int mouseX, int mouseY, float partialTicks) {
