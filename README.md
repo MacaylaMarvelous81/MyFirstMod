@@ -8,7 +8,7 @@ This is just.. my first mod... Adds new commands, blocks, items, and food becaus
 ![Oops! Try loading again.](http://minecraftrecipedesigner.com/creations/235562.png "Basketball")
 ![Oops! Try loading again.](http://minecraftrecipedesigner.com/creations/235563.png "Cactus Sword")
 ![Oops! Try loading again.](http://minecraftrecipedesigner.com/creations/235564.png "_Screw_'s First Block")  
-like a pickaxe, using **\_Screw\_'s First Block** = **Screw's First Item**
+like a pickaxe, using **\_Screw\_'s First Block** = **Screw's First Item**  
 ![Oops! Try loading again.](http://minecraftrecipedesigner.com/creations/235565.png "Pizza")
 ![Oops! Try loading again.](http://minecraftrecipedesigner.com/creations/235568.png "Popcorn")  
 crafting table full of rubies = **ruby block**  
