@@ -22,3 +22,4 @@ like a sword, using **ruby** == **Ruby Sword**
 
 ## Commands
 > /myfirstcommand \<appended\>
+> /broadcast \<message\>
