@@ -21,4 +21,4 @@ like a sword, using **ruby** == **Ruby Sword**
 ![Oops! Try loading again](http://minecraftrecipedesigner.com/creations/235571.png "Spaghetti in a Bowl 2")
 
 ## Commands
-> /myfirstcommand <appended>
+> /myfirstcommand \<appended\>
