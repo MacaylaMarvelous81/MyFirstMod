@@ -40,6 +40,7 @@ More food! (Pizza and spaghetti in a bowl)
 Rubies
 More weapons
 Containers
+Commands
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.daedricscrewmod1]] #optional

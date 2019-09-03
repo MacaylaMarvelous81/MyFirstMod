@@ -1,6 +1,7 @@
 package com.daedricscrew.daedricscrewmod1;
 
 import com.daedricscrew.daedricscrewmod1.blocks.*;
+import com.daedricscrew.daedricscrewmod1.commands.MyFirstCommand;
 import com.daedricscrew.daedricscrewmod1.items.*;
 import com.daedricscrew.daedricscrewmod1.setup.ClientProxy;
 import com.daedricscrew.daedricscrewmod1.setup.IProxy;
@@ -26,14 +27,17 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.event.entity.EntityJoinWorldEvent;
 import net.minecraftforge.event.entity.living.LivingDeathEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
+import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import javax.activation.CommandObject;
 import javax.smartcardio.TerminalFactorySpi;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -105,6 +109,13 @@ public class DaedricScrewMod1
                 BlockPos pos = data.readBlockPos();
                 return new DonationBoxContainer(windowId, proxy.getClientWorld(), pos, inv, proxy.getClientPlayer());
             }).setRegistryName("donationbox")));
+        }
+    }
+    @Mod.EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.FORGE)
+    public static class NonModEvents {
+        @SubscribeEvent
+        public static void OnServerStarting(final FMLServerStartingEvent serverStartingEvent) {
+            MyFirstCommand.register(serverStartingEvent.getCommandDispatcher());
         }
     }
 }
