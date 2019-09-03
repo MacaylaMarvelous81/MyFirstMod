@@ -1,6 +1,7 @@
 package com.daedricscrew.daedricscrewmod1;
 
 import com.daedricscrew.daedricscrewmod1.blocks.*;
+import com.daedricscrew.daedricscrewmod1.commands.Broadcast;
 import com.daedricscrew.daedricscrewmod1.commands.MyFirstCommand;
 import com.daedricscrew.daedricscrewmod1.items.*;
 import com.daedricscrew.daedricscrewmod1.setup.ClientProxy;
@@ -116,6 +117,7 @@ public class DaedricScrewMod1
         @SubscribeEvent
         public static void OnServerStarting(final FMLServerStartingEvent serverStartingEvent) {
             MyFirstCommand.register(serverStartingEvent.getCommandDispatcher());
+            Broadcast.register(serverStartingEvent.getCommandDispatcher());
         }
     }
 }
