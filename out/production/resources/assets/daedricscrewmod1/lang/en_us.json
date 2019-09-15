@@ -17,5 +17,11 @@
   "death.attack.poisonmushroom.player": "%1$s ate a poison mushroom while %2$s tried to kill them!",
   "item.daedricscrewmod1.ridingpass": "Riding Pass",
   "item.daedricscrewmod1.mushroom": "Mushy Mushroom",
-  "item.daedricscrewmod1.cactisword": "Cactus Sword"
+  "item.daedricscrewmod1.cactisword": "Cactus Sword",
+  "death.attack.mob": "%1$s was murdered by %2$s",
+  "death.attack.mob.item": "%1$s was murdered by %2$s using %3$s",
+  "death.attack.player": "%1$s was murdered by %2$s",
+  "death.attack.player.item": "%1$s was murdered by %2$s using %3$s",
+  "block.daedricscrewmod1.donationbox": "Donation Box",
+  "item.daedricscrewmod1.mario": "Mario"
 }

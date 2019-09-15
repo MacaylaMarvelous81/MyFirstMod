@@ -94,6 +94,7 @@ public class DaedricScrewMod1
             itemRegistryEvent.getRegistry().register(new Mushroom());
             itemRegistryEvent.getRegistry().register(new SwordItem(ItemTier.IRON, 2, -2.1F, creativeTab).setRegistryName("cactisword"));
             itemRegistryEvent.getRegistry().register(new BlockItem(ModBlocks.DONATIONBOX, creativeTab).setRegistryName("donationbox"));
+            itemRegistryEvent.getRegistry().register(new Mario());
         }
         @SubscribeEvent
         public static void onTileEntityRegistry(final RegistryEvent.Register<TileEntityType<?>> tileEntityRegistryEvent) {

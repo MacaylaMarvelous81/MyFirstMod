@@ -23,4 +23,6 @@ public class ModItems {
     public static PoisonMushroom POISONMUSHROOM;
     @ObjectHolder("daedricscrewmod1:mushroom")
     public static Mushroom MUSHROOM;
+    @ObjectHolder("daedricscrewmod1:mario")
+    public static Mario MARIO;
 }
