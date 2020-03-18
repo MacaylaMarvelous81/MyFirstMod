@@ -4,16 +4,16 @@
     <option name="MAIN_CLASS_NAME" value="net.minecraftforge.userdev.LaunchTesting"/>
     <option name="VM_PARAMETERS" value="-Dforge.logging.console.level=debug -Dforge.logging.markers=SCAN,REGISTRIES,REGISTRYDUMP"/>
     <option name="PROGRAM_PARAMETERS" value=""/>
-    <option name="WORKING_DIRECTORY" value="C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\run"/>
-    <module name="MyFirstMod_main"/>
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$\run"/>
+    <module name="MyFirstMod.main"/>
     <envs>
-      <env name="MOD_CLASSES" value="examplemod%%C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\build\resources\main;examplemod%%C:\Users\jolie\Desktop\Minecraft Modding\MyFirstMod\build\classes\java\main"/>
-      <env name="MCP_MAPPINGS" value="snapshot_20190621-1.14.2"/>
-      <env name="MCP_VERSION" value="20190624.152911"/>
-      <env name="FORGE_VERSION" value="27.0.55"/>
+      <env name="MOD_CLASSES" value="examplemod%%$PROJECT_DIR$\build\resources\main;examplemod%%$PROJECT_DIR$\build\classes\java\main"/>
+      <env name="MCP_MAPPINGS" value="snapshot_20200225-1.15.1"/>
+      <env name="MCP_VERSION" value="20200307.202953"/>
+      <env name="FORGE_VERSION" value="31.1.25"/>
       <env name="FORGE_GROUP" value="net.minecraftforge"/>
       <env name="target" value="fmluserdevserver"/>
-      <env name="MC_VERSION" value="1.14.3"/>
+      <env name="MC_VERSION" value="1.15.2"/>
     </envs>
     <method v="2">
       <option enabled="true" name="Make"/>

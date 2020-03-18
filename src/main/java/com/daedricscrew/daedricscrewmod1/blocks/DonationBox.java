@@ -33,18 +33,4 @@ public class DonationBox extends Block {
     public TileEntity createTileEntity(BlockState state, IBlockReader world) {
         return new DonationBoxTile();
     }
-    @Override
-    public boolean onBlockActivated(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockRayTraceResult result) {
-        if (!world.isRemote) {
-            TileEntity tileEntity = world.getTileEntity(pos);
-            if(tileEntity instanceof INamedContainerProvider) {
-                NetworkHooks.openGui((ServerPlayerEntity) player, (INamedContainerProvider) tileEntity, tileEntity.getPos());
-            }
-            else {
-                throw new IllegalStateException("Our named container provider is missing!");
-            }
-            return true;
-        }
-        return super.onBlockActivated(state, world, pos, player, hand, result);
-    }
 }
