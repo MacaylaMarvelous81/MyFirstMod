@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: MyFirstMod
-Implementation-Version: 1.10.1
+Implementation-Version: 10.0.2
 Specification-Vendor: examplemodsareus
 Specification-Title: examplemod
-Implementation-Timestamp: 2019-09-14T17:49:36-0700
+Implementation-Timestamp: 2020-03-18T14:30:25-0700
 Specification-Version: 1
 Implementation-Vendor: examplemodsareus
 

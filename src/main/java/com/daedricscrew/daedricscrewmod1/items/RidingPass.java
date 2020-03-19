@@ -5,11 +5,13 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Rarity;
 
 public class RidingPass extends Item {
     public RidingPass() {
         super(new Properties()
                 .group(DaedricScrewMod1.setup.itemGroup)
+                .rarity(Rarity.COMMON)
         );
         setRegistryName("ridingpass");
     }

@@ -3,10 +3,7 @@ package com.daedricscrew.daedricscrewmod1.items;
 import com.daedricscrew.daedricscrewmod1.DaedricScrewMod1;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.Food;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemUseContext;
+import net.minecraft.item.*;
 import net.minecraft.util.ActionResultType;
 import net.minecraft.util.DamageSource;
 import net.minecraft.world.World;
@@ -16,6 +13,7 @@ public class PoisonMushroom extends Item {
     public PoisonMushroom() {
         super(new Item.Properties()
                 .group(DaedricScrewMod1.setup.itemGroup)
+                .rarity(Rarity.COMMON)
                 .food(new Food.Builder()
                         .saturation(0.0F)
                         .hunger(0)

@@ -8,6 +8,7 @@ import com.daedricscrew.daedricscrewmod1.setup.ClientProxy;
 import com.daedricscrew.daedricscrewmod1.setup.IProxy;
 import com.daedricscrew.daedricscrewmod1.setup.ModSetup;
 import com.daedricscrew.daedricscrewmod1.setup.ServerProxy;
+import com.daedricscrew.daedricscrewmod1.util.GenerationUtil;
 import net.minecraft.block.Block;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityClassification;
@@ -23,6 +24,7 @@ import net.minecraft.network.PacketBuffer;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import net.minecraft.world.gen.feature.OreFeatureConfig;
 import net.minecraftforge.common.extensions.IForgeContainerType;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.event.entity.EntityJoinWorldEvent;
@@ -37,6 +39,7 @@ import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import net.minecraft.world.gen.feature.OreFeatureConfig.FillerBlockType;
 
 import javax.activation.CommandObject;
 import javax.smartcardio.TerminalFactorySpi;
@@ -58,6 +61,7 @@ public class DaedricScrewMod1
     {
         setup.init();
         proxy.init();
+        GenerationUtil.GenerateOre(FillerBlockType.NATURAL_STONE, ModBlocks.RUBYORE.getDefaultState(), 10, 2, 0, 0, 23);
     }
 
     // You can use EventBusSubscriber to automatically subscribe events on the contained class (this is subscribing to the MOD
