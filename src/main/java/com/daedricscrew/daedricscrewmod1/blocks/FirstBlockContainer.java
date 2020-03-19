@@ -63,5 +63,5 @@ public class FirstBlockContainer extends Container {
         topRow += 58;
         addSlotRange(playerInventory, 0, leftCol, topRow, 9, 18);
     }
-
+    // FIXME: Override method to fix Shift + Right Click crash
 }
