@@ -65,7 +65,7 @@ public class FirstBlock extends Block {
                 NetworkHooks.openGui((ServerPlayerEntity) player, (INamedContainerProvider) tileEntity, tileEntity.getPos());
             }
             else {
-                throw new IllegalStateException("Out named container provider is missing!");
+                throw new IllegalStateException("Our named container provider is missing!");
             }
             return ActionResultType.SUCCESS;
         }

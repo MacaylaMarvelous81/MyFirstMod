@@ -12,8 +12,7 @@ import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.SlotItemHandler;
 import net.minecraftforge.items.wrapper.InvWrapper;
 
-import static com.daedricscrew.daedricscrewmod1.blocks.ModBlocks.DONATIONBOX_CONTAINER;
-import static com.daedricscrew.daedricscrewmod1.blocks.ModBlocks.FIRSTBLOCK_CONTAINER;
+import static com.daedricscrew.daedricscrewmod1.blocks.ModBlocks.*;
 
 public class FirstBlockContainer extends Container {
 
@@ -22,7 +21,7 @@ public class FirstBlockContainer extends Container {
     private IItemHandler playerInventory;
 
     public FirstBlockContainer(int windowId, World world, BlockPos pos, PlayerInventory playerInventory, PlayerEntity player) {
-        super(DONATIONBOX_CONTAINER, windowId);
+        super(FIRSTBLOCK_CONTAINER, windowId);
         tileEntity = world.getTileEntity(pos);
         this.playerEntity = player;
         this.playerInventory = new InvWrapper(playerInventory);

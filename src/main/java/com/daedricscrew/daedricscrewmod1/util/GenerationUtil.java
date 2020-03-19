@@ -14,9 +14,9 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class GenerationUtil {
     /**
      * World generation method.
-     * @param stage
-     * @param feature
-     * @param biomes
+     * @param stage Generation Stage
+     * @param feature Generation Feature
+     * @param biomes Biomes to generate to
      */
     public static void Generate(Decoration stage, ConfiguredFeature<?, ?> feature, Biome... biomes) {
         for(Biome biome : biomes) {
@@ -26,30 +26,31 @@ public class GenerationUtil {
 
     /**
      * Generates an ore on the specified biomes.
-     * @param target
-     * @param state
-     * @param veinSize
-     * @param chunkCount
-     * @param unk1
-     * @param unk2
-     * @param max
-     * @param biomes
+     * @param target The target block to replace (eg. Stone)
+     * @param state The state of the block to replace with
+     * @param veinSize The size of the vien.
+     * @param chunkCount for chance
+     * @param unk1 something
+     * @param unk2 something
+     * @param max Max height to generate to
+     * @param biomes Biomes to generate to
      */
     public static void GenerateOre(FillerBlockType target, BlockState state, int veinSize, int chunkCount, int unk1, int unk2, int max, Biome... biomes) {
         Generate(Decoration.UNDERGROUND_DECORATION, Feature.ORE.withConfiguration(new OreFeatureConfig(target, state, veinSize)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(chunkCount, unk1, unk2, max))), biomes);
     }
     /**
      * Generates an ore on all biomes.
-     * @param target
-     * @param state
-     * @param veinSize
-     * @param chunkCount
-     * @param unk1
-     * @param unk2
-     * @param max
+     * @param target The target block to replace (eg. Stone)
+     * @param state The state of the block to replace with
+     * @param veinSize The size of the vien.
+     * @param chunkCount for chance
+     * @param unk1 something
+     * @param unk2 something
+     * @param max Max height to generate to
      */
     public static void GenerateOre(FillerBlockType target, BlockState state, int veinSize, int chunkCount, int unk1, int unk2, int max) {
         Biome[] biomes = {};
-        Generate(Decoration.UNDERGROUND_DECORATION, Feature.ORE.withConfiguration(new OreFeatureConfig(target, state, veinSize)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(chunkCount, unk1, unk2, max))), GameRegistry.findRegistry(Biome.class).getValues().toArray(biomes));
+        GameRegistry.findRegistry(Biome.class).getValues().toArray(biomes);
+        Generate(Decoration.UNDERGROUND_DECORATION, Feature.ORE.withConfiguration(new OreFeatureConfig(target, state, veinSize)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(chunkCount, unk1, unk2, max))), biomes);
     }
 }

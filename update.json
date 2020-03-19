@@ -10,12 +10,13 @@
 		"1.10": "something i forgot",
 		"1.10.1": "secret mario",
 		"1.10.2": "Update minecraft version",
-		"1.10.3": "Add rarities to most items\nTried to add world generation to rubies, it didn't work. Please help!"
+		"1.10.3": "Add rarities to most items\nTried to add world generation to rubies, it didn't work. Please help!",
+		"1.10.4": "Fixed containers, I guess..."
 	},
 	"promos": {
 		"1.14.3-latest": "1.10.1",
 		"1.14.3-recommended": "1.10.1",
-		"1.15.2-latest": "10.0.3",
-		"1.15.2-recommended": "10.0.3"
+		"1.15.2-latest": "10.0.4",
+		"1.15.2-recommended": "10.0.4"
 	}
 }

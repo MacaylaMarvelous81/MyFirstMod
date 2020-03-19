@@ -6,6 +6,7 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.text.StringTextComponent;
 
 public class FirstBlockScreen extends ContainerScreen<FirstBlockContainer> {
     private ResourceLocation GUI = new ResourceLocation(DaedricScrewMod1.MODID, "textures/gui/firstblock_gui.png");
@@ -36,6 +37,6 @@ public class FirstBlockScreen extends ContainerScreen<FirstBlockContainer> {
     }
 
     public FirstBlockScreen(FirstBlockContainer container, PlayerInventory inv, ITextComponent name) {
-        super(container, inv, name);
+        super(container, inv, new StringTextComponent("My First Block"));
     }
 }
