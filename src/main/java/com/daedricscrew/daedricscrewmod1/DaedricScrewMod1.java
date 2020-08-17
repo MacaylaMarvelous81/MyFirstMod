@@ -29,6 +29,7 @@ import net.minecraft.world.gen.ChunkGeneratorType;
 import net.minecraft.world.gen.feature.OreFeatureConfig;
 import net.minecraftforge.common.extensions.IForgeContainerType;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.EntityJoinWorldEvent;
 import net.minecraftforge.event.entity.living.LivingDeathEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
@@ -42,6 +43,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import net.minecraft.world.gen.feature.OreFeatureConfig.FillerBlockType;
+import net.minecraftforge.event.TickEvent.ClientTickEvent;
 
 import javax.activation.CommandObject;
 import javax.smartcardio.TerminalFactorySpi;
@@ -54,6 +56,7 @@ public class DaedricScrewMod1
     public static IProxy proxy = DistExecutor.runForDist(() -> () -> new ClientProxy(), () -> () -> new ServerProxy());
     public static ModSetup setup = new ModSetup();
     private static final Logger LOGGER = LogManager.getLogger();
+    public static int TickTimer = 0;
 
     public DaedricScrewMod1() {
         // Register the setup method for modloading
